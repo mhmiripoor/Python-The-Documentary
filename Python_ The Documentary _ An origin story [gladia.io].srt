@@ -1,0 +1,6707 @@
+1
+00:00:01.052 --> 00:00:03.895
+Do you think Python was going to get popular from the beginning?
+
+2
+00:00:14.849 --> 00:00:21.068
+Python has contributed to making critical thinking a little more approachable by more people.
+
+3
+00:00:21.396 --> 00:00:25.379
+You can spend one to two hours learning programming fundamentals,
+
+4
+00:00:25.739 --> 00:00:29.457
+and then you can write like 10 to 20 lines of code that do something interesting.
+
+5
+00:00:29.647 --> 00:00:30.288
+The language,
+
+6
+00:00:30.388 --> 00:00:31.047
+the community,
+
+7
+00:00:31.208 --> 00:00:32.368
+the ecosystem,
+
+8
+00:00:32.468 --> 00:00:33.088
+the market,
+
+9
+00:00:33.448 --> 00:00:37.091
+the whole thing has had such an impact on humanity.
+
+10
+00:00:37.469 --> 00:00:37.692
+Today,
+
+11
+00:00:37.747 --> 00:00:40.512
+I think it's safe to say that almost anywhere there's a computer,
+
+12
+00:00:40.591 --> 00:00:41.872
+there's probably some Python.
+
+13
+00:00:42.348 --> 00:00:44.247
+It's literally on Mars.
+
+14
+00:00:45.387 --> 00:00:46.505
+The impact of AI,
+
+15
+00:00:46.646 --> 00:00:48.990
+I think we're still seeing what that's going to be.
+
+16
+00:00:49.490 --> 00:00:51.240
+Python is incredibly important for that.
+
+17
+00:00:52.240 --> 00:00:54.786
+To fully understand how Python got so big,
+
+18
+00:00:55.130 --> 00:00:56.396
+we have to go back in time.
+
+19
+00:01:00.079 --> 00:01:01.462
+Maybe not that far back.
+
+20
+00:01:02.862 --> 00:01:04.805
+Everything started back in Amsterdam in the
+
+21
+00:01:05.185 --> 00:01:07.067
+80s, during my time at CWI,
+
+22
+00:01:07.368 --> 00:01:08.787
+a Dutch research facility.
+
+23
+00:01:11.552 --> 00:01:17.521
+The CWI had been behind a lot of major programming language developments,
+
+24
+00:01:17.771 --> 00:01:19.599
+Algos 60 and Algos 68,
+
+25
+00:01:19.614 --> 00:01:20.302
+for instance.
+
+26
+00:01:21.067 --> 00:01:21.364
+And
+
+27
+00:01:21.724 --> 00:01:28.942
+Lombeer-Meertens had tried teaching programming to artists and discovered things about programming.
+
+28
+00:01:29.408 --> 00:01:32.251
+That are easy if you're a scientist or a geek.
+
+29
+00:01:32.450 --> 00:01:34.492
+But for somebody like an artist,
+
+30
+00:01:34.772 --> 00:01:39.456
+those things weren't obvious because you had to know something about the computer.
+
+31
+00:01:39.777 --> 00:01:44.284
+The cost of the frustration was the low level of languages that were available.
+
+32
+00:01:44.480 --> 00:01:47.120
+The computers were immensely expensive.
+
+33
+00:01:47.385 --> 00:01:48.605
+And compared with that,
+
+34
+00:01:49.027 --> 00:01:50.323
+a programmer was really,
+
+35
+00:01:50.402 --> 00:01:50.963
+really cheap.
+
+36
+00:01:51.823 --> 00:01:57.260
+And so programming languages were designed with that economic relationship in mind.
+
+37
+00:01:57.683 --> 00:01:58.683
+It didn't matter.
+
+38
+00:01:59.028 --> 00:02:00.810
+If it took a long time to program,
+
+39
+00:02:01.349 --> 00:02:04.313
+as long as it didn't demand too much of the computer,
+
+40
+00:02:04.373 --> 00:02:05.915
+because that's where the cost was.
+
+41
+00:02:07.016 --> 00:02:08.337
+We looked at each other and said,
+
+42
+00:02:08.438 --> 00:02:09.478
+can't we do a better job?
+
+43
+00:02:09.641 --> 00:02:12.181
+Can't we design a language that is easy to learn,
+
+44
+00:02:12.282 --> 00:02:13.118
+easy to teach,
+
+45
+00:02:13.259 --> 00:02:15.502
+but also easy to use?
+
+46
+00:02:15.766 --> 00:02:22.252
+So that beginners could understand how to program without having to go into all those messy hardware details.
+
+47
+00:02:22.391 --> 00:02:23.313
+And that's how the
+
+48
+00:02:23.752 --> 00:02:25.096
+ABC project was born.
+
+49
+00:02:28.063 --> 00:02:31.307
+One of the members of that team was Guido van Rossum.
+
+50
+00:02:39.795 --> 00:02:42.359
+I was hired to work on ABC,
+
+51
+00:02:42.975 --> 00:02:45.038
+for which there was a small prototype,
+
+52
+00:02:45.835 --> 00:02:51.007
+but every part of the prototype had to be expanded to fully working according to the spec.
+
+53
+00:02:54.207 --> 00:02:56.069
+In 1985,
+
+54
+00:02:56.070 --> 00:02:57.890
+we made the release of ABC.
+
+55
+00:02:59.212 --> 00:03:00.573
+And then we hit the problem,
+
+56
+00:03:01.155 --> 00:03:04.474
+how to make the world know that there was ABC.
+
+57
+00:03:05.358 --> 00:03:10.811
+We did not have a good way of reaching our intended audience.
+
+58
+00:03:11.139 --> 00:03:12.701
+The internet did not exist.
+
+59
+00:03:13.045 --> 00:03:17.264
+Most people had never heard of a computer or even seen one.
+
+60
+00:03:17.748 --> 00:03:18.998
+If anybody wanted a copy,
+
+61
+00:03:19.451 --> 00:03:20.592
+they had to send us a letter,
+
+62
+00:03:21.233 --> 00:03:22.780
+and we'd send them a floppy disk.
+
+63
+00:03:24.376 --> 00:03:27.800
+So I'm afraid ABC reached very few people.
+
+64
+00:03:28.159 --> 00:03:29.100
+And at some point,
+
+65
+00:03:29.102 --> 00:03:29.819
+the directors,
+
+66
+00:03:29.920 --> 00:03:31.984
+for a reason that I still don't understand,
+
+67
+00:03:32.284 --> 00:03:33.543
+killed that project.
+
+68
+00:03:34.104 --> 00:03:34.847
+I had spent,
+
+69
+00:03:35.550 --> 00:03:35.769
+well,
+
+70
+00:03:35.871 --> 00:03:44.300
+three and a half years of hard work on this language and the implementation to make it as good as we could.
+
+71
+00:03:44.597 --> 00:03:45.737
+So it was disappointing.
+
+72
+00:03:45.753 --> 00:03:52.081
+Guido was transferred to another project.
+
+73
+00:03:52.644 --> 00:03:54.925
+On a distributed operating system,
+
+74
+00:03:55.407 --> 00:03:56.588
+the AmoeBa system.
+
+75
+00:03:59.189 --> 00:04:02.233
+One of my jobs at that project as the programmer,
+
+76
+00:04:02.295 --> 00:04:03.193
+not the researcher,
+
+77
+00:04:03.451 --> 00:04:09.552
+was to write or help write a large number of user applications.
+
+78
+00:04:10.224 --> 00:04:14.177
+And I didn't actually think that for many of those utilities,
+
+79
+00:04:15.021 --> 00:04:16.725
+C was a very good language.
+
+80
+00:04:18.552 --> 00:04:19.225
+And I thought,
+
+81
+00:04:19.350 --> 00:04:19.694
+well,
+
+82
+00:04:19.896 --> 00:04:20.630
+oh man,
+
+83
+00:04:20.694 --> 00:04:21.413
+if we just could...
+
+84
+00:04:21.776 --> 00:04:24.317
+Program ABC instead of C.
+
+85
+00:04:24.860 --> 00:04:27.983
+Each of those utilities would be like half a page of code,
+
+86
+00:04:28.103 --> 00:04:31.584
+and I could write the entire suite of utilities in a couple of weeks,
+
+87
+00:04:32.247 --> 00:04:35.326
+instead of the years that it looked like it was going to take us.
+
+88
+00:04:36.192 --> 00:04:36.951
+Except that
+
+89
+00:04:37.591 --> 00:04:40.850
+ABC was so high and abstract,
+
+90
+00:04:40.959 --> 00:04:51.350
+it wasn't a good language to talk to. Servers and file systems and processes, and it's sort of the whole operating system thing.
+
+91
+00:04:51.680 --> 00:04:54.043
+Was abstracted away from ABC.
+
+92
+00:04:54.584 --> 00:04:55.283
+So I thought,
+
+93
+00:04:55.343 --> 00:04:55.504
+well,
+
+94
+00:04:55.523 --> 00:05:00.408
+there really ought to be a language that sort of bridges the gap between C and shell.
+
+95
+00:05:01.088 --> 00:05:02.329
+And we looked at Perl,
+
+96
+00:05:02.509 --> 00:05:07.298
+and we didn't think it was any good as a programming language.
+
+97
+00:05:08.721 --> 00:05:11.110
+It was about as bad as basic,
+
+98
+00:05:11.173 --> 00:05:12.346
+although in different ways.
+
+99
+00:05:12.735 --> 00:05:17.829
+So Python was also in a part built as an alternative to Perl.
+
+100
+00:05:18.704 --> 00:05:19.721
+That's where I decided,
+
+101
+00:05:19.908 --> 00:05:20.033
+oh,
+
+102
+00:05:20.110 --> 00:05:20.314
+well.
+
+103
+00:05:20.939 --> 00:05:23.903
+I'm going to see if I can make my own programming language.
+
+104
+00:05:28.809 --> 00:05:30.048
+One Christmas holiday,
+
+105
+00:05:30.110 --> 00:05:30.548
+I believe,
+
+106
+00:05:30.726 --> 00:05:37.218
+He decided to spend his time designing and building a new programming language for the operating system,
+
+107
+00:05:37.735 --> 00:05:41.016
+based on the principles that he'd learned while on the ABC project.
+
+108
+00:05:42.016 --> 00:05:44.750
+It was logical that I would start with ABC as
+
+109
+00:05:45.201 --> 00:05:45.980
+as an example.
+
+110
+00:05:46.221 --> 00:05:55.262
+The most prominent feature that Python borrowed from ABC is actually the use of indentation for statement grouping.
+
+111
+00:05:55.583 --> 00:06:01.848
+But it was also logical that I sort of dropped the things from ABC that I didn't particularly like.
+
+112
+00:06:02.052 --> 00:06:03.223
+That's how we ended up with
+
+113
+00:06:03.692 --> 00:06:04.129
+Python.
+
+114
+00:06:10.286 --> 00:06:11.348
+Okay.
+
+115
+00:06:13.812 --> 00:06:17.115
+I finally was confident enough of the interpreter,
+
+116
+00:06:17.216 --> 00:06:18.478
+was complete enough that
+
+117
+00:06:18.939 --> 00:06:20.617
+I showed it to Lambert.
+
+118
+00:06:20.619 --> 00:06:24.586
+He showed me a language he had developed stealthily,
+
+119
+00:06:24.946 --> 00:06:26.048
+which he calls Python,
+
+120
+00:06:26.384 --> 00:06:27.649
+named after Monty Python.
+
+121
+00:06:28.704 --> 00:06:29.048
+I said,
+
+122
+00:06:29.125 --> 00:06:29.923
+look what I made.
+
+123
+00:06:30.750 --> 00:06:34.266
+It was clear to me that it had some resemblance to ABC.
+
+124
+00:06:34.798 --> 00:06:36.750
+The command line prompt is even the same.
+
+125
+00:06:37.516 --> 00:06:37.641
+So
+
+126
+00:06:38.064 --> 00:06:41.000
+Lambert watched me type a few things and...
+
+127
+00:06:41.002 --> 00:06:41.579
+And he was.
+
+128
+00:06:41.940 --> 00:06:46.324
+Excited about it, and he apparently thought I would be excited as well.
+
+129
+00:06:46.547 --> 00:06:48.309
+At some point he had seen enough and he said,
+
+130
+00:06:48.327 --> 00:06:49.367
+Can I try something?
+
+131
+00:06:49.730 --> 00:06:54.153
+And he types one very short line of code and it crashes the interpreter.
+
+132
+00:06:57.112 --> 00:06:58.894
+And he knew that it would.
+
+133
+00:06:59.723 --> 00:07:00.644
+The point escaped me.
+
+134
+00:07:00.675 --> 00:07:07.362
+I didn't know why he thought this was better than ABC and why he had done this whole project.
+
+135
+00:07:07.581 --> 00:07:10.004
+I went back and the next day I had a fix for it.
+
+136
+00:07:11.632 --> 00:07:13.654
+It was a pretty crushing experience,
+
+137
+00:07:13.656 --> 00:07:14.396
+to be honest.
+
+138
+00:07:28.654 --> 00:07:33.170
+It must have been at least half a year later that I first got acquainted with Python.
+
+139
+00:07:33.858 --> 00:07:35.451
+So this is the office where
+
+140
+00:07:35.920 --> 00:07:39.701
+Guido and I were holed up when he created Python.
+
+141
+00:07:40.257 --> 00:07:42.059
+There were two important users.
+
+142
+00:07:42.139 --> 00:07:44.863
+Sjoerd was one of them, and the other was Jack Janssen.
+
+143
+00:07:47.485 --> 00:07:51.488
+Guido was sitting over there and I was sitting over there.
+
+144
+00:07:52.309 --> 00:07:54.269
+If you want to prototype a program,
+
+145
+00:07:54.831 --> 00:07:58.903
+you sort of write the outlines of the program,
+
+146
+00:07:59.168 --> 00:08:00.403
+but it doesn't actually work.
+
+147
+00:08:00.793 --> 00:08:01.870
+When you do this in Python,
+
+148
+00:08:02.184 --> 00:08:02.995
+it actually works.
+
+149
+00:08:03.355 --> 00:08:04.105
+It's readable,
+
+150
+00:08:04.793 --> 00:08:06.245
+it's very easy to program,
+
+151
+00:08:06.887 --> 00:08:09.089
+and the indentation is totally natural.
+
+152
+00:08:09.617 --> 00:08:10.898
+As far as I'm concerned, anyway.
+
+153
+00:08:11.399 --> 00:08:14.882
+Sjoerd and Jack were the most active in using Python.
+
+154
+00:08:15.221 --> 00:08:15.904
+You find bugs,
+
+155
+00:08:16.002 --> 00:08:18.201
+you find the things that you want to extend.
+
+156
+00:08:18.389 --> 00:08:19.624
+And then telling me about it,
+
+157
+00:08:19.725 --> 00:08:21.468
+because all they had to do was say,
+
+158
+00:08:21.569 --> 00:08:22.093
+Hey, Guido.
+
+159
+00:08:23.249 --> 00:08:27.858
+It was the first real interactive systems programming language,
+
+160
+00:08:27.874 --> 00:08:31.560
+so you could just sit and write and run it immediately, without any compilation.
+
+161
+00:08:31.764 --> 00:08:35.249
+So it was much more fun to use than the old programming languages,
+
+162
+00:08:35.576 --> 00:08:36.107
+but slower.
+
+163
+00:08:39.157 --> 00:08:41.980
+I think it was mostly Jack's idea in the end,
+
+164
+00:08:42.059 --> 00:08:43.240
+while we all worked on it,
+
+165
+00:08:43.559 --> 00:08:45.224
+to make an open source release.
+
+166
+00:08:45.763 --> 00:08:47.345
+CWI allowed
+
+167
+00:08:47.688 --> 00:08:52.447
+Guido to distribute Python to the world as long as this copyright notice was there.
+
+168
+00:08:53.134 --> 00:08:57.813
+They would have held back if they had known it would be such an incredible success.
+
+169
+00:08:58.298 --> 00:08:59.783
+Which is good that they didn't know.
+
+170
+00:08:59.923 --> 00:09:00.438
+Nobody knew.
+
+171
+00:09:00.595 --> 00:09:01.595
+I didn't either.
+
+172
+00:09:01.953 --> 00:09:03.658
+Because if they had held back,
+
+173
+00:09:03.703 --> 00:09:06.078
+it would never have become an incredible success.
+
+174
+00:09:08.876 --> 00:09:11.698
+Then we had to actually physically do the release,
+
+175
+00:09:11.780 --> 00:09:13.980
+which turned out to be an incredible pain,
+
+176
+00:09:14.043 --> 00:09:17.488
+because Usenet was the only thing we had to release it.
+
+177
+00:09:22.831 --> 00:09:25.385
+UseNet was a network of,
+
+178
+00:09:26.027 --> 00:09:26.480
+you could say,
+
+179
+00:09:26.573 --> 00:09:27.418
+bulletin boards.
+
+180
+00:09:28.293 --> 00:09:29.635
+People would write messages,
+
+181
+00:09:30.120 --> 00:09:31.980
+they would get distributed over the world,
+
+182
+00:09:32.152 --> 00:09:36.182
+and then there were the groups for all the different computer languages.
+
+183
+00:09:38.557 --> 00:09:42.462
+Usenit had a very strict limit on the size of a single post.
+
+184
+00:09:43.041 --> 00:09:43.399
+First,
+
+185
+00:09:43.880 --> 00:09:46.346
+put your entire source tree in a tarball.
+
+186
+00:09:47.688 --> 00:09:48.649
+Then compress it.
+
+187
+00:09:49.330 --> 00:09:53.009
+Then you have to do another step where you turn the binary data into
+
+188
+00:09:53.494 --> 00:09:54.626
+ASCII encoding.
+
+189
+00:09:55.673 --> 00:09:59.235
+So you have this huge file with gobbledygook,
+
+190
+00:09:59.330 --> 00:10:02.126
+but it's at least printable gobbledygook.
+
+191
+00:10:02.846 --> 00:10:05.705
+Then you apply another tool that snips it into pieces.
+
+192
+00:10:07.476 --> 00:10:11.981
+Then there is a script where if you have downloaded all 21 parts,
+
+193
+00:10:12.384 --> 00:10:15.164
+you can undo all those operations in reverse.
+
+194
+00:10:16.086 --> 00:10:17.625
+That was what people put up with.
+
+195
+00:10:17.743 --> 00:10:28.259
+So we did all the work on our side and plenty of people did all the work on their side to unpack this. Because I had apparently written a very good teaser of what this was.
+
+196
+00:10:35.980 --> 00:10:36.721
+Very quickly,
+
+197
+00:10:37.041 --> 00:10:46.147
+I started getting feedback via email or Usenax from people who had done something exciting with it, or who had found a bug.
+
+198
+00:10:46.623 --> 00:10:47.764
+And that just kept coming.
+
+199
+00:10:51.107 --> 00:10:52.505
+We worked at Johnson Space Center.
+
+200
+00:10:52.850 --> 00:11:02.005
+So our interest was putting together flight simulations and tools for the design engineers that would be used for a shuttle program at the time.
+
+201
+00:11:04.793 --> 00:11:13.041
+I remember needing a scripting language to control a C++ library project we were working on at the time.
+
+202
+00:11:15.080 --> 00:11:16.423
+Not too long into that search,
+
+203
+00:11:16.884 --> 00:11:20.048
+I found Guidos Python Distribution at CWI.
+
+204
+00:11:20.572 --> 00:11:22.274
+I was able to FTP that down,
+
+205
+00:11:25.572 --> 00:11:26.057
+unpack it,
+
+206
+00:11:27.087 --> 00:11:27.587
+compile it,
+
+207
+00:11:28.916 --> 00:11:31.384
+and run it in a matter of 10 minutes or so.
+
+208
+00:11:32.836 --> 00:11:36.823
+That was my first impressive experience with Python.
+
+209
+00:11:37.385 --> 00:11:38.148
+Twenty years ago,
+
+210
+00:11:38.586 --> 00:11:45.879
+a computer that cost a million dollars and filled an entire room had less capability than an 11-pound desktop computer today.
+
+211
+00:11:46.859 --> 00:11:49.461
+With costs going down and capabilities going up,
+
+212
+00:11:49.981 --> 00:11:52.845
+the computer has entered our lives quickly and unobtrusively.
+
+213
+00:11:53.243 --> 00:11:59.774
+There were lots of things changing in a major way that made computing particularly exciting to be in at that time.
+
+214
+00:12:00.009 --> 00:12:04.461
+Computers suddenly were coming out of the machine room and landing up on your desk,
+
+215
+00:12:04.711 --> 00:12:04.961
+and then,
+
+216
+00:12:04.977 --> 00:12:05.259
+of course,
+
+217
+00:12:05.259 --> 00:12:05.993
+the web happened,
+
+218
+00:12:06.134 --> 00:12:07.211
+then it all exploded.
+
+219
+00:12:08.086 --> 00:12:10.539
+After the internet came to Europe,
+
+220
+00:12:10.618 --> 00:12:13.461
+it was much easier for software to be distributed.
+
+221
+00:12:13.868 --> 00:12:15.822
+Python very slowly...
+
+222
+00:12:16.407 --> 00:12:16.807
+Took off.
+
+223
+00:12:17.548 --> 00:12:21.451
+Then there was a growing Python community, which was very supportive,
+
+224
+00:12:22.150 --> 00:12:24.154
+like a big family, you could almost say.
+
+225
+00:12:30.357 --> 00:12:32.100
+Part of the benefit of this is that
+
+226
+00:12:33.279 --> 00:12:33.639
+I don't,
+
+227
+00:12:34.264 --> 00:12:36.514
+I'm like, there's no strain on my body at all.
+
+228
+00:12:37.654 --> 00:12:45.749
+I was working on developing a kind of distributed equipment database, and a colleague at the lab,
+
+229
+00:12:46.010 --> 00:12:52.616
+Michael McClay, knew that. I was looking for what was called a scripting language that was also sophisticated,
+
+230
+00:12:52.777 --> 00:12:57.866
+that would enable you to build substantial things and not get bogged down in the ragged edges.
+
+231
+00:12:58.163 --> 00:13:03.070
+Scripting languages were designed to glue things together,
+
+232
+00:13:03.100 --> 00:13:04.881
+to connect things that already worked,
+
+233
+00:13:04.913 --> 00:13:06.053
+that already existed.
+
+234
+00:13:06.445 --> 00:13:07.710
+Immediately on trying it,
+
+235
+00:13:07.756 --> 00:13:09.960
+I was just amazed and thought,
+
+236
+00:13:10.053 --> 00:13:11.663
+this can't be as good as it is.
+
+237
+00:13:12.023 --> 00:13:12.475
+And it was.
+
+238
+00:13:14.115 --> 00:13:17.558
+Mike was interested in bringing Guido over,
+
+239
+00:13:18.097 --> 00:13:20.140
+and Guido was interested in coming over.
+
+240
+00:13:20.640 --> 00:13:21.621
+99%
+
+241
+00:13:21.660 --> 00:13:25.706
+of the people that I got in touch with were in the United States.
+
+242
+00:13:26.386 --> 00:13:26.504
+So
+
+243
+00:13:27.105 --> 00:13:28.028
+Guido ended up coming.
+
+244
+00:13:28.785 --> 00:13:30.192
+And then Mike and
+
+245
+00:13:30.535 --> 00:13:39.614
+Guido and I wanted to arrange a workshop so people who were interested in Python could gather and talk about what they were working on and what they felt was needed.
+
+246
+00:13:41.176 --> 00:13:43.004
+This is the t-shirt for the first.
+
+247
+00:13:43.174 --> 00:13:43.855
+conference.
+
+248
+00:13:43.856 --> 00:13:44.436
+And so this,
+
+249
+00:13:46.017 --> 00:13:46.278
+yeah,
+
+250
+00:13:46.719 --> 00:13:48.541
+that was just sort of flowy writing.
+
+251
+00:13:48.599 --> 00:13:49.763
+And on the back,
+
+252
+00:13:51.287 --> 00:13:54.287
+it gave the date of the conference.
+
+253
+00:13:54.748 --> 00:13:55.005
+Spum,
+
+254
+00:13:55.130 --> 00:13:55.403
+spum,
+
+255
+00:13:55.528 --> 00:13:55.809
+spum,
+
+256
+00:13:55.927 --> 00:13:56.248
+spum.
+
+257
+00:13:56.990 --> 00:13:58.309
+It's such a fantastic song.
+
+258
+00:13:59.395 --> 00:14:01.130
+That workshop really is,
+
+259
+00:14:01.177 --> 00:14:01.427
+for me,
+
+260
+00:14:01.599 --> 00:14:03.255
+the beginning of the Python community,
+
+261
+00:14:03.333 --> 00:14:04.817
+November 1994,
+
+262
+00:14:05.240 --> 00:14:05.958
+Gaithersburg,
+
+263
+00:14:06.020 --> 00:14:06.583
+Maryland,
+
+264
+00:14:06.630 --> 00:14:09.755
+in this windowless government office building at NIST.
+
+265
+00:14:10.287 --> 00:14:11.349
+That was a great experience.
+
+266
+00:14:11.442 --> 00:14:12.349
+That was about two days.
+
+267
+00:14:13.071 --> 00:14:13.892
+We had 20 people.
+
+268
+00:14:14.652 --> 00:14:17.073
+I still have the t-shirt from that workshop.
+
+269
+00:14:17.394 --> 00:14:19.557
+There was just kind of this feel of,
+
+270
+00:14:19.635 --> 00:14:19.777
+hey,
+
+271
+00:14:19.859 --> 00:14:20.918
+there's something happening.
+
+272
+00:14:20.961 --> 00:14:25.484
+This will be fun to hang out with the people that I chat with online.
+
+273
+00:14:25.702 --> 00:14:28.547
+Actually see Guido in person and actually make decisions.
+
+274
+00:14:28.548 --> 00:14:33.155
+And we knew that if you impressed him with the feature and it was an easy thing to install,
+
+275
+00:14:33.187 --> 00:14:37.092
+he would add it to the language right there. So that we can at least try it out in beta form.
+
+276
+00:14:37.312 --> 00:14:40.234
+It was like a whole room of people who knew what you were talking about.
+
+277
+00:14:40.506 --> 00:14:42.849
+Because they had all studied Python deeply,
+
+278
+00:14:43.370 --> 00:14:44.129
+or almost all.
+
+279
+00:14:45.532 --> 00:14:47.231
+One of the people was Barry Warsaw.
+
+280
+00:14:47.232 --> 00:14:57.349
+Around 1994,
+
+281
+00:14:57.427 --> 00:14:58.270
+I joined a company,
+
+282
+00:14:58.427 --> 00:14:59.145
+CNRI,
+
+283
+00:14:59.379 --> 00:15:01.427
+Corporation for National Research Initiatives.
+
+284
+00:15:02.004 --> 00:15:05.254
+And we were building these software agents,
+
+285
+00:15:05.552 --> 00:15:07.474
+little programs that can move around.
+
+286
+00:15:07.658 --> 00:15:14.318
+To different computers on a network. And they pickle themselves up and move around to another place and reconstitute themselves and do some more work.
+
+287
+00:15:14.799 --> 00:15:16.260
+A friend of mine from
+
+288
+00:15:16.721 --> 00:15:19.143
+NIST sent me an email and said,
+
+289
+00:15:19.158 --> 00:15:19.283
+hey,
+
+290
+00:15:19.339 --> 00:15:23.260
+we've got this guy coming over from the Netherlands and he's going to talk about his language.
+
+291
+00:15:23.283 --> 00:15:24.096
+Do you want to come?
+
+292
+00:15:24.268 --> 00:15:32.378
+And so we went to the workshop and just absolutely fell in love with, of course, Python and of course, Guido.
+
+293
+00:15:32.783 --> 00:15:33.628
+Even then,
+
+294
+00:15:34.018 --> 00:15:36.658
+it had the feeling that there was a there there.
+
+295
+00:15:37.270 --> 00:15:39.734
+That there was something that was going to happen,
+
+296
+00:15:39.773 --> 00:15:40.995
+that there was potential.
+
+297
+00:15:41.214 --> 00:15:43.437
+I remember coming back to CNRI and saying,
+
+298
+00:15:43.519 --> 00:15:44.135
+Oh, this is great,
+
+299
+00:15:44.159 --> 00:15:46.698
+we're going to use Python, for sure, in our project.
+
+300
+00:15:46.980 --> 00:15:50.323
+And one of our colleagues at CNRI said,
+
+301
+00:15:50.924 --> 00:15:51.629
+Well, what do you think,
+
+302
+00:15:51.721 --> 00:15:53.581
+why don't we just hire Guido?
+
+303
+00:16:04.644 --> 00:16:06.721
+CNRI was set up to sort of promote
+
+304
+00:16:07.154 --> 00:16:08.514
+information infrastructure,
+
+305
+00:16:08.634 --> 00:16:09.635
+foster research,
+
+306
+00:16:10.535 --> 00:16:12.076
+help build pilot projects,
+
+307
+00:16:12.596 --> 00:16:13.534
+take the results,
+
+308
+00:16:14.057 --> 00:16:17.780
+and put them out into the public so that others could then leverage it.
+
+309
+00:16:18.014 --> 00:16:21.562
+Part of CNRI's mission was to cultivate internet-based things.
+
+310
+00:16:21.835 --> 00:16:23.405
+That's why our name,
+
+311
+00:16:23.812 --> 00:16:26.280
+Corporation for National Research Initiatives,
+
+312
+00:16:26.764 --> 00:16:28.451
+had four initiatives in there.
+
+313
+00:16:32.826 --> 00:16:36.437
+We had a need for a language that
+
+314
+00:16:36.863 --> 00:16:43.239
+would be easier for people to deal with than any other traditional languages that were around at the time.
+
+315
+00:16:43.621 --> 00:16:45.039
+I ran across a photograph.
+
+316
+00:16:45.101 --> 00:16:46.407
+There was a party at sea.
+
+317
+00:16:46.962 --> 00:16:47.403
+.Year. ago.
+
+318
+00:16:47.924 --> 00:16:48.664
+It was probably,
+
+319
+00:16:48.725 --> 00:16:49.046
+I think,
+
+320
+00:16:49.446 --> 00:16:52.690
+1996.
+
+321
+00:16:52.710 --> 00:16:55.049
+And it's a Guido Ramos.
+
+322
+00:16:56.033 --> 00:16:56.150
+Yeah,
+
+323
+00:16:56.152 --> 00:16:56.956
+I used to say Guido.
+
+324
+00:16:57.214 --> 00:16:58.236
+Many people say Guido,
+
+325
+00:16:58.315 --> 00:16:59.072
+but I said Guido.
+
+326
+00:16:59.456 --> 00:17:02.480
+And I'm sure I don't pronounce it right.
+
+327
+00:17:02.480 --> 00:17:02.596
+Oh,
+
+328
+00:17:02.597 --> 00:17:04.144
+he was a very stylish person.
+
+329
+00:17:04.299 --> 00:17:05.799
+He was a very strong fellow.
+
+330
+00:17:05.940 --> 00:17:07.096
+I got introduced to him,
+
+331
+00:17:07.346 --> 00:17:08.987
+and it just seemed like it was a good fit.
+
+332
+00:17:09.065 --> 00:17:10.580
+And so I made the job offer.
+
+333
+00:17:10.769 --> 00:17:11.049
+For me,
+
+334
+00:17:11.080 --> 00:17:12.424
+it was fantastic.
+
+335
+00:17:13.221 --> 00:17:14.690
+There's no doubt about that.
+
+336
+00:17:14.971 --> 00:17:15.315
+One of the
+
+337
+00:17:15.398 --> 00:17:16.601
+things he insists on,
+
+338
+00:17:16.901 --> 00:17:18.320
+if you want to get him to work for you,
+
+339
+00:17:18.421 --> 00:17:20.385
+is that he has some fraction of his time,
+
+340
+00:17:21.463 --> 00:17:23.346
+preferably as much as half time,
+
+341
+00:17:23.347 --> 00:17:23.963
+if not more,
+
+342
+00:17:24.424 --> 00:17:25.791
+to work on the language itself.
+
+343
+00:17:26.010 --> 00:17:28.494
+The fact that they could work full-time on Python,
+
+344
+00:17:29.471 --> 00:17:35.651
+because it turned out that the Nobots project was almost more an excuse to hire me than
+
+345
+00:17:35.994 --> 00:17:37.198
+I did. Much for that.
+
+346
+00:17:38.119 --> 00:17:42.151
+I kind of feel like our work on Python was a little subversive.
+
+347
+00:17:42.385 --> 00:17:42.666
+You know,
+
+348
+00:17:42.682 --> 00:17:42.807
+we...
+
+349
+00:17:43.222 --> 00:17:46.625
+Tended to spend a lot more time on Python than maybe we should have.
+
+350
+00:17:46.987 --> 00:17:50.229
+I went to CNRI and since I had been a systems person,
+
+351
+00:17:50.749 --> 00:17:53.593
+I was responsible for setting up python.org.
+
+352
+00:17:54.154 --> 00:18:04.226
+We should have also grabbed Python.com, even though we didn't think of Python as a commercial enterprise. Because someone else got it and used it to host this stupid porn site.
+
+353
+00:18:04.601 --> 00:18:05.226
+For years,
+
+354
+00:18:05.257 --> 00:18:06.585
+we had to warn people,
+
+355
+00:18:06.804 --> 00:18:08.007
+go to python.org,
+
+356
+00:18:08.101 --> 00:18:08.788
+not .com.
+
+357
+00:18:13.770 --> 00:18:15.432
+It really was the perfect home,
+
+358
+00:18:15.653 --> 00:18:15.992
+I think,
+
+359
+00:18:16.073 --> 00:18:21.460
+for doing all of that early Python development and develop a lot of the infrastructure around Python.
+
+360
+00:18:21.619 --> 00:18:29.874
+We had a meeting discussing making some kind of user group or software organization where the Python software activity was proposed.
+
+361
+00:18:30.124 --> 00:18:31.343
+We need a little bit of governance,
+
+362
+00:18:31.654 --> 00:18:33.249
+a little bit of organization,
+
+363
+00:18:33.529 --> 00:18:37.108
+but we don't want too much because I don't think any of us really like bureaucracy.
+
+364
+00:18:37.779 --> 00:18:41.671
+And then the question came up about what we should call Guido as part of that.
+
+365
+00:18:41.874 --> 00:18:42.654
+I think it was.
+
+366
+00:18:43.346 --> 00:18:43.467
+Me,
+
+367
+00:18:43.686 --> 00:18:44.688
+who suggested that
+
+368
+00:18:45.670 --> 00:18:47.633
+Guido be called a benevolent dictator.
+
+369
+00:18:48.292 --> 00:18:51.292
+And then Barry suggested benevolent dictator for life.
+
+370
+00:18:52.636 --> 00:18:54.855
+And that became an internet meme,
+
+371
+00:18:54.917 --> 00:18:57.160
+or actually a software meme.
+
+372
+00:18:57.441 --> 00:18:58.785
+Benevolent dictator for life.
+
+373
+00:19:00.207 --> 00:19:01.785
+You can find it on Wikipedia.
+
+374
+00:19:04.191 --> 00:19:04.753
+Ultimately,
+
+375
+00:19:05.410 --> 00:19:05.644
+you know,
+
+376
+00:19:05.722 --> 00:19:08.847
+Guido was the inventor of the language and...
+
+377
+00:19:09.078 --> 00:19:10.539
+The final decider about,
+
+378
+00:19:10.601 --> 00:19:10.780
+yes,
+
+379
+00:19:10.840 --> 00:19:13.163
+this is going to make it in, or this is not going to make it in?
+
+380
+00:19:13.324 --> 00:19:18.527
+I think I developed my own style during those first years.
+
+381
+00:19:19.410 --> 00:19:21.074
+All ideas are welcome,
+
+382
+00:19:21.574 --> 00:19:26.863
+but I will choose which ideas I believe are right to add to the language.
+
+383
+00:19:27.644 --> 00:19:37.941
+There's dozens and dozens of aspects of Python today where somebody had a vision for, if you just
+
+384
+00:19:38.262 --> 00:19:39.523
+add this to Python,
+
+385
+00:19:40.125 --> 00:19:48.856
+Look at all these amazing things that I can do.
+
+386
+00:19:48.857 --> 00:19:50.678
+I'm one of the many people that came to Python,
+
+387
+00:19:50.692 --> 00:19:51.513
+not as a programmer,
+
+388
+00:19:51.553 --> 00:19:52.513
+but as a scientist.
+
+389
+00:19:52.756 --> 00:19:54.873
+Python wasn't the first language I used for science.
+
+390
+00:19:55.045 --> 00:19:57.045
+I was doing satellite data processing,
+
+391
+00:19:57.576 --> 00:19:58.685
+and I used Perl to do it.
+
+392
+00:19:58.810 --> 00:19:59.670
+And then, a year later,
+
+393
+00:19:59.685 --> 00:20:01.420
+I would come back and try to figure out what I'd done,
+
+394
+00:20:01.421 --> 00:20:02.185
+and I had no idea.
+
+395
+00:20:03.060 --> 00:20:04.717
+Python had the opposite experience.
+
+396
+00:20:04.748 --> 00:20:06.653
+I first started using Python in 1997.
+
+397
+00:20:07.191 --> 00:20:08.971
+I just used it to do some scripting,
+
+398
+00:20:08.972 --> 00:20:11.236
+do some data processing with some medical imaging data.
+
+399
+00:20:11.736 --> 00:20:12.095
+And I was like,
+
+400
+00:20:12.096 --> 00:20:12.196
+hey,
+
+401
+00:20:12.198 --> 00:20:12.736
+this is nice.
+
+402
+00:20:12.737 --> 00:20:13.715
+This is pretty cool.
+
+403
+00:20:13.959 --> 00:20:14.657
+A year later,
+
+404
+00:20:14.659 --> 00:20:15.782
+so 1998,
+
+405
+00:20:16.056 --> 00:20:18.939
+I came back to look at the code I'd written and I could read it.
+
+406
+00:20:19.025 --> 00:20:20.001
+I understood what I did.
+
+407
+00:20:20.603 --> 00:20:21.548
+And that was kind of,
+
+408
+00:20:21.548 --> 00:20:21.782
+for me,
+
+409
+00:20:21.806 --> 00:20:23.142
+the convincing data that said,
+
+410
+00:20:23.220 --> 00:20:23.345
+oh,
+
+411
+00:20:23.392 --> 00:20:24.704
+I need to dig in on this language.
+
+412
+00:20:26.470 --> 00:20:32.048
+And there were a few really key people at that time who were publishing or talking about how to use Python for science.
+
+413
+00:20:32.079 --> 00:20:32.611
+Not very many,
+
+414
+00:20:32.689 --> 00:20:33.079
+but a few.
+
+415
+00:20:33.564 --> 00:20:35.173
+Conrad Hinson was one of them.
+
+416
+00:20:35.204 --> 00:20:35.579
+I remember,
+
+417
+00:20:35.673 --> 00:20:36.798
+and David Asher and...
+
+418
+00:20:37.406 --> 00:20:37.547
+Jim,
+
+419
+00:20:37.626 --> 00:20:38.147
+you're going to add?
+
+420
+00:20:38.788 --> 00:20:52.540
+There's been a number of stages in the lifecycle of Python when it just grew from a core language capability to a platform with a number of different specialty modules and packages. That made it very,
+
+421
+00:20:52.604 --> 00:20:55.611
+very useful for certain user communities.
+
+422
+00:20:56.268 --> 00:20:58.893
+The first one was probably the numeric community,
+
+423
+00:20:59.221 --> 00:21:03.611
+the science and engineering folks that wanted high-performance matrix operations to be done.
+
+424
+00:21:04.530 --> 00:21:06.453
+Even though Guido wasn't a scientist himself,
+
+425
+00:21:06.534 --> 00:21:11.078
+wasn't necessarily deeply concerned with the same things that we were concerned with as scientists,
+
+426
+00:21:11.477 --> 00:21:13.680
+he was open to the suggestions.
+
+427
+00:21:16.563 --> 00:21:31.031
+I think one of the things that people don't appreciate about the Python language as much now that it's so popular and mainstream, is how important it was. That Guido was open to new ideas and open to the needs of people who are not traditional programmers.
+
+428
+00:21:32.810 --> 00:21:35.074
+I think he had a very clear-eyed,
+
+429
+00:21:35.613 --> 00:21:42.741
+quiet focus on understanding some things about the future that he built into the language.
+
+430
+00:21:42.819 --> 00:21:45.461
+It was uniquely suited to its environment.
+
+431
+00:21:45.780 --> 00:21:46.405
+One of the reasons...
+
+432
+00:21:46.510 --> 00:21:47.172
+I used Python.
+
+433
+00:21:47.173 --> 00:21:48.912
+And I think a lot of people used Python at the time.
+
+434
+00:21:48.993 --> 00:21:49.253
+Instead,
+
+435
+00:21:49.273 --> 00:21:50.234
+in the early 2000s,
+
+436
+00:21:50.795 --> 00:21:52.498
+the world was almost divided into,
+
+437
+00:21:52.979 --> 00:21:54.159
+here's an open source ecosystem,
+
+438
+00:21:54.440 --> 00:21:55.759
+or you can go and use Java,
+
+439
+00:21:55.962 --> 00:21:57.823
+which is actually a paid thing.
+
+440
+00:21:58.159 --> 00:21:59.221
+I was using MATLAB.
+
+441
+00:21:59.462 --> 00:22:02.893
+I really didn't like the fact that when I wrote code and I wanted to share that code with others,
+
+442
+00:22:02.923 --> 00:22:09.159
+I was essentially telling people. They had to go buy a license for a software package before they could even look at my code or use my code.
+
+443
+00:22:09.160 --> 00:22:09.487
+You know,
+
+444
+00:22:09.488 --> 00:22:14.721
+these are the days where you have to buy the developer tools or spend a couple hundred bucks to get.
+
+445
+00:22:14.906 --> 00:22:22.229
+Visual Studio 6.0. And then Python, and then all of these libraries were open source and then could be used in a commercial project.
+
+446
+00:22:22.388 --> 00:22:37.685
+I was sort of early on convinced by community members that Python being open source and the particular way it was open source was very important. So that people would feel comfortable using Python to make great
+
+447
+00:22:37.826 --> 00:22:40.499
+things that they would then be able to sell.
+
+448
+00:22:52.412 --> 00:22:56.037
+In 1998, Blender was published on the internet.
+
+449
+00:22:56.795 --> 00:22:59.803
+The software was free and you could buy some things around it.
+
+450
+00:23:00.684 --> 00:23:03.724
+We were restricted to use open source,
+
+451
+00:23:04.020 --> 00:23:05.990
+so you didn't have a lot of options.
+
+452
+00:23:06.584 --> 00:23:09.270
+We were doing a call on our website like,
+
+453
+00:23:09.317 --> 00:23:13.334
+what is the most popular scripting language that we should add in Blender?
+
+454
+00:23:14.027 --> 00:23:15.568
+Perl was really big,
+
+455
+00:23:16.348 --> 00:23:18.231
+and Python was upcoming,
+
+456
+00:23:18.353 --> 00:23:19.250
+and there were some others.
+
+457
+00:23:19.711 --> 00:23:26.981
+And it was interesting to see that everybody who was advising us to use perl as scripting language,
+
+458
+00:23:27.419 --> 00:23:31.005
+but they only advertised how great perl is.
+
+459
+00:23:31.786 --> 00:23:35.661
+And the people who came more from the Python background,
+
+460
+00:23:36.067 --> 00:23:36.411
+who said,
+
+461
+00:23:36.442 --> 00:23:36.583
+well,
+
+462
+00:23:36.630 --> 00:23:38.473
+I think Python is the baddest choice,
+
+463
+00:23:38.958 --> 00:23:40.880
+they came with a balanced opinion.
+
+464
+00:23:40.895 --> 00:23:41.286
+And they said,
+
+465
+00:23:41.348 --> 00:23:41.551
+okay.
+
+466
+00:23:41.767 --> 00:23:45.871
+Perl will give you this and this and this, and Python will give you other things.
+
+467
+00:23:46.433 --> 00:23:48.094
+And balancing all of it,
+
+468
+00:23:48.172 --> 00:23:50.394
+I would recommend you to do Python.
+
+469
+00:23:50.738 --> 00:23:53.675
+And only for that reason I picked Python.
+
+470
+00:23:54.457 --> 00:23:56.082
+Just because the people were nicer.
+
+471
+00:24:04.394 --> 00:24:04.785
+It was...
+
+472
+00:24:05.242 --> 00:24:05.542
+Honestly,
+
+473
+00:24:05.623 --> 00:24:06.765
+just a lot of enthusiasts.
+
+474
+00:24:06.984 --> 00:24:09.185
+It was a lot of people who just enjoyed the language,
+
+475
+00:24:09.507 --> 00:24:11.029
+enjoyed the people involved with the language,
+
+476
+00:24:11.351 --> 00:24:14.671
+And it would just happen to be typically motivating enough for people to want to help out.
+
+477
+00:24:15.490 --> 00:24:15.976
+Ultimately,
+
+478
+00:24:16.054 --> 00:24:18.771
+there's a sense of fun that comes across,
+
+479
+00:24:18.857 --> 00:24:18.976
+and
+
+480
+00:24:19.476 --> 00:24:22.085
+Guido coded that into the name of the language,
+
+481
+00:24:22.413 --> 00:24:23.101
+influenced by
+
+482
+00:24:23.538 --> 00:24:24.257
+Monty Python.
+
+483
+00:24:25.257 --> 00:24:27.679
+It creates a sense of community to have your little jokes.
+
+484
+00:24:30.771 --> 00:24:31.585
+Tim Peters is...
+
+485
+00:24:32.282 --> 00:24:52.105
+Famous early example and blending both like the the aesthetics of Python and humor, Tim Peters was this mythical feature creature in the world of Python. And no one had met him. He was out there in the Ether as a wise one to give us advice on what to do with numerical processing. Steve
+
+486
+00:24:52.121 --> 00:24:55.433
+Majeski sent me some email telling me about Python.
+
+487
+00:24:56.303 --> 00:25:00.669
+So I started an email correspondence with Guido about the language and about the design,
+
+488
+00:25:00.867 --> 00:25:06.997
+And I got some of the pre-release code and played with it and talked to him about design decisions and liked it very much.
+
+489
+00:25:07.590 --> 00:25:09.497
+Tim Peters was a
+
+490
+00:25:09.973 --> 00:25:17.200
+Python contributor and community member and mentor to me from very early on.
+
+491
+00:25:17.387 --> 00:25:19.137
+Tim was a channeler of Guido.
+
+492
+00:25:19.262 --> 00:25:22.200
+He had a really unique way of saying,
+
+493
+00:25:22.481 --> 00:25:23.872
+I think Guido's going to like this,
+
+494
+00:25:24.012 --> 00:25:25.747
+or I don't think Guido's going to like that.
+
+495
+00:25:25.942 --> 00:25:27.944
+There's a poem called The Zen of Python,
+
+496
+00:25:28.184 --> 00:25:30.147
+which is a partially humorous,
+
+497
+00:25:30.246 --> 00:25:35.128
+partially serious poem about the aesthetics of Python.
+
+498
+00:25:35.589 --> 00:25:37.292
+I'm actually looking at the
+
+499
+00:25:37.652 --> 00:25:40.019
+UseNet post where
+
+500
+00:25:40.894 --> 00:25:43.957
+Tim posted his first version of the Zen of Python,
+
+501
+00:25:44.721 --> 00:25:46.660
+although he called it the Way of Python.
+
+502
+00:25:47.878 --> 00:25:53.535
+And it was in response to some discussion where people were complaining that...
+
+503
+00:25:53.994 --> 00:25:56.797
+They didn't understand what was Python's philosophy.
+
+504
+00:25:57.617 --> 00:25:58.739
+They couldn't figure me out.
+
+505
+00:25:58.917 --> 00:26:00.122
+And Tim had figured me out,
+
+506
+00:26:00.200 --> 00:26:02.183
+and he put it basically in poetry.
+
+507
+00:26:03.386 --> 00:26:09.230
+Here is the Way of Python by Tim Peters from 1999.
+
+508
+00:26:09.231 --> 00:26:10.989
+Beautiful is better than ugly.
+
+509
+00:26:11.675 --> 00:26:11.972
+Duh.
+
+510
+00:26:12.692 --> 00:26:14.317
+Explicit is better than implicit.
+
+511
+00:26:14.753 --> 00:26:16.457
+Simple is better than complex.
+
+512
+00:26:17.003 --> 00:26:18.832
+Complex is better than complicated.
+
+513
+00:26:19.722 --> 00:26:20.800
+I love that distinction.
+
+514
+00:26:21.222 --> 00:26:22.847
+Flat is better than nested.
+
+515
+00:26:23.366 --> 00:26:24.646
+Sparse is better than dense.
+
+516
+00:26:24.906 --> 00:26:25.886
+Readability counts.
+
+517
+00:26:26.186 --> 00:26:27.547
+I will say it counts for a lot.
+
+518
+00:26:28.308 --> 00:26:32.269
+Special cases aren't special enough to break the rules.
+
+519
+00:26:32.511 --> 00:26:34.511
+Although practicality beats purity,
+
+520
+00:26:35.027 --> 00:26:38.886
+errors should never pass silently unless explicitly silenced.
+
+521
+00:26:39.394 --> 00:26:40.785
+In the face of ambiguity,
+
+522
+00:26:41.566 --> 00:26:43.207
+refuse the temptation to guess.
+
+523
+00:26:43.925 --> 00:26:46.035
+I did not follow that in a very...
+
+524
+00:26:46.522 --> 00:26:47.785
+Key piece of NumPy,
+
+525
+00:26:48.365 --> 00:26:49.385
+and it's still a mess.
+
+526
+00:26:49.885 --> 00:26:51.067
+There should be one,
+
+527
+00:26:51.287 --> 00:26:53.228
+and preferably only one,
+
+528
+00:26:53.709 --> 00:26:55.170
+obvious way to do it.
+
+529
+00:26:55.912 --> 00:27:00.395
+That's a direct reference to Perl's motto of There's more than one way to do it,
+
+530
+00:27:00.434 --> 00:27:00.817
+by the way.
+
+531
+00:27:01.201 --> 00:27:03.084
+Although that may not be obvious at first,
+
+532
+00:27:03.255 --> 00:27:04.020
+unless you're Dutch.
+
+533
+00:27:05.287 --> 00:27:06.240
+Now is better than never,
+
+534
+00:27:06.442 --> 00:27:08.630
+although never is often better than right now.
+
+535
+00:27:08.990 --> 00:27:10.787
+If the implementation is hard to explain,
+
+536
+00:27:10.990 --> 00:27:11.834
+it's a bad idea.
+
+537
+00:27:12.145 --> 00:27:13.209
+That's a really good one.
+
+538
+00:27:13.663 --> 00:27:16.303
+If the implementation is easy to explain,
+
+539
+00:27:16.542 --> 00:27:17.863
+it may be a good idea.
+
+540
+00:27:18.285 --> 00:27:18.605
+Names,
+
+541
+00:27:18.663 --> 00:27:20.683
+faces are one honking great idea.
+
+542
+00:27:21.003 --> 00:27:22.167
+Let's do more of those.
+
+543
+00:27:22.503 --> 00:27:23.441
+This is so, Tim.
+
+544
+00:27:25.527 --> 00:27:25.925
+Normally,
+
+545
+00:27:26.363 --> 00:27:27.308
+import this print,
+
+546
+00:27:27.746 --> 00:27:30.167
+import some useful library,
+
+547
+00:27:30.246 --> 00:27:31.792
+which is very serious business.
+
+548
+00:27:32.246 --> 00:27:38.261
+Having an import, this that was just a joke, was a bit of lightness that we like to add.
+
+549
+00:27:38.667 --> 00:27:39.574
+This is from a small.
+
+550
+00:27:40.434 --> 00:27:41.236
+Obvious community,
+
+551
+00:27:41.375 --> 00:27:41.557
+right?
+
+552
+00:27:41.596 --> 00:27:44.657
+Because if you're a corporate behemoth making a programming language,
+
+553
+00:27:44.678 --> 00:27:49.240
+like, someone's probably going to tell you that you can't put a silly poem in your programming language.
+
+554
+00:27:49.263 --> 00:27:49.381
+But
+
+555
+00:27:50.521 --> 00:27:52.748
+Python is just made by dogs on the internet,
+
+556
+00:27:52.826 --> 00:27:54.849
+so they can put poems in their software.
+
+557
+00:27:58.232 --> 00:28:01.857
+The different ways to make money on the internet are just beginning to emerge.
+
+558
+00:28:02.482 --> 00:28:06.373
+Entrepreneurs are putting their faith in a new medium to deliver the big payoff.
+
+559
+00:28:07.013 --> 00:28:08.045
+It's a dot-com bubble.
+
+560
+00:28:08.207 --> 00:28:12.611
+All this money pumping into Silicon Valley software and internet stuff.
+
+561
+00:28:12.951 --> 00:28:14.032
+Early 2000,
+
+562
+00:28:14.115 --> 00:28:16.919
+I decided to leave CNRI and,
+
+563
+00:28:17.076 --> 00:28:18.498
+with a few co-workers,
+
+564
+00:28:19.278 --> 00:28:21.584
+joined a little startup named BeOpen.
+
+565
+00:28:23.162 --> 00:28:23.865
+While CNRI,
+
+566
+00:28:23.903 --> 00:28:24.137
+I think,
+
+567
+00:28:24.138 --> 00:28:26.826
+was an amazing home for Python in the early days,
+
+568
+00:28:27.201 --> 00:28:29.044
+everything changes and everything evolves.
+
+569
+00:28:29.123 --> 00:28:29.731
+And thinking,
+
+570
+00:28:29.981 --> 00:28:30.153
+well,
+
+571
+00:28:30.169 --> 00:28:32.076
+if we're going to strike out on our own,
+
+572
+00:28:32.373 --> 00:28:34.106
+this is probably the right time to do that.
+
+573
+00:28:34.419 --> 00:28:36.106
+That didn't work out.
+
+574
+00:28:36.919 --> 00:28:39.098
+I'd say within maybe a year or something.
+
+575
+00:28:39.239 --> 00:28:41.941
+Be open was completely incompetent.
+
+576
+00:28:42.382 --> 00:28:46.323
+We spent the summer in blissful ignorance, working full-time on Python.
+
+577
+00:28:46.901 --> 00:28:49.260
+We built and released Python 2.
+
+578
+00:28:49.784 --> 00:28:51.502
+And within five months,
+
+579
+00:28:51.698 --> 00:28:52.299
+it was over.
+
+580
+00:28:52.580 --> 00:28:54.588
+We were paid our salaries every two weeks.
+
+581
+00:28:55.135 --> 00:28:58.198
+And then suddenly, in late October,
+
+582
+00:28:58.230 --> 00:28:58.744
+we weren't.
+
+583
+00:29:01.385 --> 00:29:04.526
+It was a moment where the shit could have hit the fan.
+
+584
+00:29:05.199 --> 00:29:07.820
+If all the Python guys went their separate ways,
+
+585
+00:29:08.041 --> 00:29:10.644
+Python wasn't big enough to survive that at the time.
+
+586
+00:29:12.507 --> 00:29:13.851
+That was when I had a company,
+
+587
+00:29:13.943 --> 00:29:15.029
+Digital Creations,
+
+588
+00:29:15.068 --> 00:29:16.146
+that later became Zobe.
+
+589
+00:29:16.249 --> 00:29:17.515
+Which is an application server,
+
+590
+00:29:17.554 --> 00:29:18.210
+database server,
+
+591
+00:29:18.271 --> 00:29:18.936
+index server,
+
+592
+00:29:19.015 --> 00:29:19.576
+web server,
+
+593
+00:29:19.632 --> 00:29:19.796
+etc.
+
+594
+00:29:20.374 --> 00:29:21.468
+Very large-scale,
+
+595
+00:29:21.811 --> 00:29:24.576
+commercial-quality application written in Python.
+
+596
+00:29:24.811 --> 00:29:26.201
+And if Python died,
+
+597
+00:29:26.326 --> 00:29:27.499
+you know, who else would die?
+
+598
+00:29:28.124 --> 00:29:28.843
+We'd die.
+
+599
+00:29:28.982 --> 00:29:31.249
+The whole platform was built on Python,
+
+600
+00:29:31.343 --> 00:29:33.061
+so they were Python experts.
+
+601
+00:29:33.326 --> 00:29:33.874
+We need to go...
+
+602
+00:29:34.398 --> 00:29:41.045
+And make sure that Python is secure for the future and that the team stays together.
+
+603
+00:29:41.506 --> 00:29:46.551
+So we negotiated an agreement with them to join my company.
+
+604
+00:29:47.067 --> 00:29:49.973
+That was an incredibly lucky rescue.
+
+605
+00:29:50.192 --> 00:29:56.373
+We felt like we really trusted them and we believed in what they were doing and what they wanted to do with Python and for Python.
+
+606
+00:29:56.653 --> 00:29:59.528
+This is a place that I'm proud of.
+
+607
+00:29:59.670 --> 00:30:00.387
+In hindsight,
+
+608
+00:30:00.388 --> 00:30:02.670
+it was a really critical point in Python's life.
+
+609
+00:30:02.684 --> 00:30:03.809
+I think if we had chosen
+
+610
+00:30:04.095 --> 00:30:06.220
+wrong or try to say,
+
+611
+00:30:06.338 --> 00:30:06.460
+oh,
+
+612
+00:30:06.461 --> 00:30:06.599
+well,
+
+613
+00:30:06.601 --> 00:30:08.362
+we'll just strike out on our own anyway.
+
+614
+00:30:09.404 --> 00:30:09.987
+You never know.
+
+615
+00:30:10.166 --> 00:30:14.651
+But I'm not so sure that Python would have survived that juncture in its life.
+
+616
+00:30:15.315 --> 00:30:15.494
+Yeah.
+
+617
+00:30:34.070 --> 00:30:39.413
+Python just kept sort of growing and the community kept self-organizing.
+
+618
+00:30:40.151 --> 00:30:40.510
+One of the,
+
+619
+00:30:40.632 --> 00:30:40.932
+I think,
+
+620
+00:30:41.034 --> 00:30:43.232
+underlying themes of Python,
+
+621
+00:30:43.990 --> 00:30:45.593
+if you take it in its totality,
+
+622
+00:30:46.529 --> 00:30:49.718
+is this sense of grassroots movements.
+
+623
+00:30:50.460 --> 00:30:57.257
+Things grow from the bottom up and evolve to the point where everybody sort of realizes,
+
+624
+00:30:57.382 --> 00:30:57.490
+oh,
+
+625
+00:30:57.491 --> 00:30:58.835
+we need a little bit more structure.
+
+626
+00:30:59.396 --> 00:30:59.615
+Oh,
+
+627
+00:30:59.616 --> 00:31:01.335
+the Python software Foundation.
+
+628
+00:31:01.757 --> 00:31:02.599
+In my opinion.
+
+629
+00:31:02.967 --> 00:31:03.707
+The PSF,
+
+630
+00:31:03.767 --> 00:31:06.167
+that damn thing, was a success from day one.
+
+631
+00:31:06.667 --> 00:31:11.628
+That came out of one of the concerns we had had with BOpen,
+
+632
+00:31:11.785 --> 00:31:12.207
+actually.
+
+633
+00:31:12.589 --> 00:31:17.808
+So CNRI had written a license for Python and put his name on it.
+
+634
+00:31:18.847 --> 00:31:24.292
+And Bopen had copied a version of that license and put the Bopen name on it.
+
+635
+00:31:25.449 --> 00:31:31.136
+There was a concern that at some point, I might accidentally end up working for a company that
+
+636
+00:31:31.375 --> 00:31:33.676
+try to grab ownership of Python.
+
+637
+00:31:33.897 --> 00:31:38.421
+We realize that we really need an organization that will be independent,
+
+638
+00:31:39.042 --> 00:31:44.846
+will not be beholden to any company and their whims and their lawyers,
+
+639
+00:31:45.667 --> 00:31:46.432
+and will really
+
+640
+00:31:46.674 --> 00:31:46.954
+keep
+
+641
+00:31:47.775 --> 00:31:52.875
+Python users as their first and foremost customer,
+
+642
+00:31:53.316 --> 00:31:53.836
+so to speak,
+
+643
+00:31:53.897 --> 00:31:54.457
+in mind.
+
+644
+00:31:58.777 --> 00:32:03.003
+And then the magic happened when we got into PyCon,
+
+645
+00:32:03.644 --> 00:32:06.925
+which is maybe the third stool of the miracle of Python.
+
+646
+00:32:18.011 --> 00:32:19.834
+What are your takeaways from
+
+647
+00:32:21.694 --> 00:32:22.675
+U.S. To Seattle?
+
+648
+00:32:22.676 --> 00:32:25.496
+It feels like people are still willing to go do hard things,
+
+649
+00:32:25.582 --> 00:32:26.722
+work on things together,
+
+650
+00:32:26.902 --> 00:32:27.222
+you know?
+
+651
+00:32:27.644 --> 00:32:29.121
+They still do have the passion,
+
+652
+00:32:29.183 --> 00:32:29.800
+to be honest.
+
+653
+00:32:29.941 --> 00:32:32.144
+So what was it for you?
+
+654
+00:32:32.269 --> 00:32:32.527
+For me,
+
+655
+00:32:32.644 --> 00:32:36.011
+most definitely like meeting people I haven't met in a while.
+
+656
+00:32:36.136 --> 00:32:36.683
+That's cool.
+
+657
+00:32:37.136 --> 00:32:39.199
+And just pretty much hanging out with them.
+
+658
+00:32:39.355 --> 00:32:40.214
+You try to walk.
+
+659
+00:32:40.730 --> 00:32:40.871
+Yeah.
+
+660
+00:32:41.027 --> 00:32:41.792
+So the other side,
+
+661
+00:32:41.949 --> 00:32:44.324
+there's like 10 people that you want to see in between.
+
+662
+00:32:45.528 --> 00:32:45.769
+Like,
+
+663
+00:32:45.769 --> 00:32:46.028
+stop,
+
+664
+00:32:46.970 --> 00:32:47.990
+I want to talk to you.
+
+665
+00:32:47.991 --> 00:32:48.029
+Oh,
+
+666
+00:32:48.030 --> 00:32:48.190
+I know.
+
+667
+00:32:48.191 --> 00:32:49.851
+Pablo and Yuri presented as bananas.
+
+668
+00:32:50.830 --> 00:32:53.838
+And then Lukasz asked a question, dressed as a banana.
+
+669
+00:32:54.479 --> 00:32:56.815
+And then Guido came in, dressed as a banana as well.
+
+670
+00:32:57.057 --> 00:32:58.698
+Thank you for what you do for the PSO.
+
+671
+00:32:59.479 --> 00:33:01.260
+Please don't step down.
+
+672
+00:33:01.307 --> 00:33:02.260
+Just keep doing it forever.
+
+673
+00:33:03.869 --> 00:33:04.088
+You're great.
+
+674
+00:33:04.089 --> 00:33:09.573
+Raise your hand if you have done.
+
+675
+00:33:09.635 --> 00:33:10.276
+React for this.
+
+676
+00:33:12.522 --> 00:33:20.814
+Raise your hand if you would like to come back.
+
+677
+00:33:20.815 --> 00:33:20.867
+No,
+
+678
+00:33:20.868 --> 00:33:21.314
+come back to Python.
+
+679
+00:33:21.595 --> 00:33:21.814
+All right,
+
+680
+00:33:21.815 --> 00:33:21.953
+good.
+
+681
+00:33:21.954 --> 00:33:22.375
+For the record,
+
+682
+00:33:22.376 --> 00:33:22.914
+100%.
+
+683
+00:33:22.953 --> 00:33:24.814
+I begged my mother to take me to
+
+684
+00:33:25.939 --> 00:33:27.117
+PyCon, and
+
+685
+00:33:27.642 --> 00:33:29.298
+I met all my online heroes.
+
+686
+00:33:29.736 --> 00:33:31.439
+He was this distant,
+
+687
+00:33:31.689 --> 00:33:35.000
+benevolent dictator for life who I had been talking to over the internet,
+
+688
+00:33:35.078 --> 00:33:36.673
+but here he was in person,
+
+689
+00:33:36.906 --> 00:33:40.470
+and so I was thrilled to be able to finally meet him.
+
+690
+00:33:40.967 --> 00:33:43.269
+Then I think everyone was aware that he was a
+
+691
+00:33:43.729 --> 00:33:45.854
+15-year-old kid on the other end of that terminal.
+
+692
+00:33:46.631 --> 00:33:49.198
+When PYCon was held in Montreal,
+
+693
+00:33:49.534 --> 00:33:54.784
+the organizer asked me if I'd be willing to give an opening address to the conference.
+
+694
+00:33:55.259 --> 00:33:55.518
+Well,
+
+695
+00:33:55.823 --> 00:33:57.276
+I'm a slightly fast talker,
+
+696
+00:33:57.729 --> 00:33:59.729
+and I had some spare time.
+
+697
+00:34:00.073 --> 00:34:02.462
+And I just used it as an opportunity to say thank you.
+
+698
+00:34:02.776 --> 00:34:04.604
+I like to think of it as I came for the language,
+
+699
+00:34:04.634 --> 00:34:05.932
+but I stayed for the community.
+
+700
+00:34:06.073 --> 00:34:09.728
+So I want to personally thank all of you for making this such a wonderful.
+
+701
+00:34:09.947 --> 00:34:12.528
+Place to be and such a wonderful group of people to be around.
+
+702
+00:34:12.971 --> 00:34:13.690
+So thank you.
+
+703
+00:34:14.570 --> 00:34:14.851
+Luckily,
+
+704
+00:34:14.851 --> 00:34:15.594
+it came off well,
+
+705
+00:34:15.594 --> 00:34:16.952
+because people still quote it.
+
+706
+00:34:17.195 --> 00:34:21.257
+I think it kind of speaks to the core ethos of Python.
+
+707
+00:34:21.554 --> 00:34:27.023
+We try to develop this tool that people can use for their needs to get their work done.
+
+708
+00:34:27.742 --> 00:34:31.273
+But the community is the true strength of Python.
+
+709
+00:34:31.414 --> 00:34:32.507
+It's not just the language,
+
+710
+00:34:32.695 --> 00:34:32.882
+right?
+
+711
+00:34:33.023 --> 00:34:33.726
+It's the people.
+
+712
+00:34:39.682 --> 00:34:41.603
+It was steadily growing every single year.
+
+713
+00:34:41.903 --> 00:34:43.764
+It was getting more and more downloads,
+
+714
+00:34:43.923 --> 00:34:46.103
+more and more people making use of it.
+
+715
+00:34:46.443 --> 00:34:57.528
+It became a more sophisticated language that was fit to purpose for this new, emerging programming paradigm, where the web itself is the platform.
+
+716
+00:34:57.748 --> 00:35:06.467
+He told me an interesting number that made me realize that the Python user community was already much bigger than I had estimated.
+
+717
+00:35:07.451 --> 00:35:08.248
+Because, he said...
+
+718
+00:35:09.014 --> 00:35:09.255
+Guido,
+
+719
+00:35:09.434 --> 00:35:12.496
+you don't know the sales numbers for Python books,
+
+720
+00:35:12.858 --> 00:35:14.161
+but I am Tim O'Reilly.
+
+721
+00:35:14.239 --> 00:35:16.521
+I published the two most important ones,
+
+722
+00:35:17.121 --> 00:35:18.927
+and I do know the sales numbers,
+
+723
+00:35:19.427 --> 00:35:20.849
+and they are fantastic.
+
+724
+00:35:21.771 --> 00:35:24.590
+I don't know if he had that much enthusiasm in his voice then,
+
+725
+00:35:24.653 --> 00:35:29.309
+but he was sharing this new-to-me important fact,
+
+726
+00:35:29.856 --> 00:35:30.856
+which made me realize,
+
+727
+00:35:30.903 --> 00:35:31.012
+oh,
+
+728
+00:35:31.121 --> 00:35:31.451
+gosh.
+
+729
+00:35:32.684 --> 00:35:37.887
+Python tends to get spikes when certain specialties,
+
+730
+00:35:37.903 --> 00:35:38.528
+I guess, you could say.
+
+731
+00:35:38.882 --> 00:35:43.646
+Pick the language up and decide that this is a thing that they want to use in their area.
+
+732
+00:35:44.128 --> 00:35:47.010
+Everybody wanted to do things with the world wide Web,
+
+733
+00:35:47.831 --> 00:35:48.072
+and
+
+734
+00:35:48.456 --> 00:35:54.260
+Python actually became a really powerful platform for doing not just web pages,
+
+735
+00:35:54.300 --> 00:35:56.494
+but web servers and services.
+
+736
+00:35:57.353 --> 00:36:00.166
+Suddenly, we had an increase of people coming in from the web world.
+
+737
+00:36:06.775 --> 00:36:12.760
+I think Dropbox was one of the early companies to start building in Python and reaching millions of users.
+
+738
+00:36:14.182 --> 00:36:14.726
+My name's Drew,
+
+739
+00:36:15.085 --> 00:36:16.789
+and I'll be showing you a quick tour of Dropbox,
+
+740
+00:36:17.467 --> 00:36:19.351
+which is a new way to store and share files online.
+
+741
+00:36:19.648 --> 00:36:23.898
+Python had been largely viewed as scripting language. You run on the back end,
+
+742
+00:36:23.898 --> 00:36:25.632
+or maybe in an academic setting,
+
+743
+00:36:25.679 --> 00:36:27.210
+or in a scientific setting,
+
+744
+00:36:27.335 --> 00:36:31.257
+but not really for production desktop software that you'd ship to millions of people.
+
+745
+00:36:32.298 --> 00:36:36.485
+I just started writing in Python and hoping that none of the roadblocks would completely blow me up.
+
+746
+00:36:36.925 --> 00:36:42.375
+You can develop programs much faster in Python because it's a higher level language, and it's a very clean,
+
+747
+00:36:42.594 --> 00:36:43.398
+easy language.
+
+748
+00:36:43.539 --> 00:36:45.907
+And so we could be a lot more competitive.
+
+749
+00:36:46.530 --> 00:36:50.635
+And other companies who were writing with Java or C++ or Perl.
+
+750
+00:36:51.034 --> 00:36:51.494
+Even back then,
+
+751
+00:36:51.494 --> 00:36:55.056
+we were competing against the Googles and Microsofts of the world,
+
+752
+00:36:55.079 --> 00:36:58.025
+and our odds didn't seem very good,
+
+753
+00:36:58.041 --> 00:36:59.385
+so we needed all the help we can get.
+
+754
+00:36:59.626 --> 00:37:01.463
+Google had this big team,
+
+755
+00:37:01.525 --> 00:37:02.487
+like 100 people,
+
+756
+00:37:02.579 --> 00:37:03.954
+C++ programmers,
+
+757
+00:37:04.001 --> 00:37:05.954
+trying to do a video hosting site.
+
+758
+00:37:05.971 --> 00:37:09.126
+And they could never keep up with this little thing over there called YouTube.
+
+759
+00:37:09.626 --> 00:37:10.534
+And they went and looked.
+
+760
+00:37:10.534 --> 00:37:12.737
+It was just a couple of people writing Python.
+
+761
+00:37:13.362 --> 00:37:14.159
+Python ended up being...
+
+762
+00:37:14.978 --> 00:37:37.277
+A big force multiplier on our effort. And no other language that we considered had anything close to that kind of capability. In fact, the data science suddenly became a thing that you had to do. Combined with the fact that Python was sort of well positioned to
+
+763
+00:37:37.293 --> 00:37:43.246
+do data science stuff, meant a huge amount of new Python users floating
+
+764
+00:37:50.155 --> 00:37:54.559
+what was starting to happen. In the 2009-2010 time frame,
+
+765
+00:37:54.981 --> 00:37:59.242
+we were seeing more and more of our consulting deals tied to using
+
+766
+00:37:59.782 --> 00:38:04.007
+Python. Not as really a replacement for Matlab or engineering type things,
+
+767
+00:38:04.547 --> 00:38:07.710
+but using Python for doing data processing.
+
+768
+00:38:08.492 --> 00:38:09.835
+We didn't call it data science at the time,
+
+769
+00:38:09.898 --> 00:38:11.039
+but it was that kind of work,
+
+770
+00:38:11.148 --> 00:38:11.289
+right?
+
+771
+00:38:11.289 --> 00:38:12.523
+It was modeling, predictive analytics,
+
+772
+00:38:12.525 --> 00:38:13.039
+things like that.
+
+773
+00:38:13.429 --> 00:38:14.585
+This is the time of Hadoop,
+
+774
+00:38:14.632 --> 00:38:15.554
+the time of big data,
+
+775
+00:38:15.664 --> 00:38:16.835
+the time of Spark,
+
+776
+00:38:16.882 --> 00:38:18.726
+and people were doing java at scale.
+
+777
+00:38:19.126 --> 00:38:22.630
+We were starting to do much more consulting work in the financial industry.
+
+778
+00:38:22.871 --> 00:38:24.891
+And we'd walk into these large,
+
+779
+00:38:25.172 --> 00:38:26.574
+very well-capitalized firms,
+
+780
+00:38:26.594 --> 00:38:28.757
+and they were using Python to do business data processing.
+
+781
+00:38:29.039 --> 00:38:29.500
+I realized,
+
+782
+00:38:29.539 --> 00:38:29.735
+okay,
+
+783
+00:38:29.797 --> 00:38:32.742
+if it's a research group over here doing some science research,
+
+784
+00:38:32.820 --> 00:38:33.577
+and they don't have money,
+
+785
+00:38:33.625 --> 00:38:34.719
+and they use an open source thing,
+
+786
+00:38:35.202 --> 00:38:35.610
+I get it.
+
+787
+00:38:35.797 --> 00:38:37.469
+But if you have J.P. Morgan,
+
+788
+00:38:37.750 --> 00:38:37.969
+right,
+
+789
+00:38:38.030 --> 00:38:39.594
+which has a lot of money,
+
+790
+00:38:40.266 --> 00:38:42.516
+and they're picking up and using these scientific tools,
+
+791
+00:38:42.547 --> 00:38:43.344
+and they're loving it,
+
+792
+00:38:43.547 --> 00:38:46.110
+I realized that we didn't just have a cheap,
+
+793
+00:38:46.469 --> 00:38:47.360
+free alternative.
+
+794
+00:38:47.755 --> 00:38:52.099
+We actually had something that was innovative and that was doing something fairly unique.
+
+795
+00:38:52.240 --> 00:38:56.007
+Peter and I ended up leaving and starting another company.
+
+796
+00:38:56.764 --> 00:38:58.342
+We started as continuum Analytics,
+
+797
+00:38:58.507 --> 00:38:58.865
+actually,
+
+798
+00:38:59.545 --> 00:39:06.248
+and its vision was to scale Numpy and Pandas to large datasets and large clusters.
+
+799
+00:39:06.670 --> 00:39:08.248
+We quickly ran into a simple problem.
+
+800
+00:39:08.670 --> 00:39:09.655
+Very quickly in.
+
+801
+00:39:09.842 --> 00:39:10.842
+But a very annoying problem.
+
+802
+00:39:11.061 --> 00:39:11.280
+Yes.
+
+803
+00:39:11.577 --> 00:39:14.764
+People just couldn't even install the software needed to run all this Python stuff.
+
+804
+00:39:16.735 --> 00:39:21.438
+The thing about the Python scientific and data stack is that all of these different libraries,
+
+805
+00:39:21.842 --> 00:39:23.641
+they're very different than the web development libraries,
+
+806
+00:39:23.860 --> 00:39:27.262
+Because these data libraries are often backed by a very large amount of complex C++,
+
+807
+00:39:27.545 --> 00:39:28.045
+Fortran,
+
+808
+00:39:28.427 --> 00:39:29.670
+other kinds of software modules.
+
+809
+00:39:29.989 --> 00:39:33.036
+And to build those correctly takes some work.
+
+810
+00:39:33.536 --> 00:39:36.958
+To build them correctly on every operating system takes even more work.
+
+811
+00:39:37.333 --> 00:39:40.677
+And then to build them so that they can actually be connected together,
+
+812
+00:39:40.943 --> 00:39:43.239
+that requires you to have this entire build system.
+
+813
+00:39:43.998 --> 00:39:44.659
+rationalized.
+
+814
+00:39:44.699 --> 00:39:49.202
+And so the very first thing we did was like, make a distribution of Python to make it easy to get that installed.
+
+815
+00:39:49.362 --> 00:39:51.188
+A lot of the data science Python people,
+
+816
+00:39:51.246 --> 00:39:52.692
+they didn't even use normal Python.
+
+817
+00:39:52.706 --> 00:39:54.371
+They used this Anaconda Python distribution.
+
+818
+00:39:54.612 --> 00:39:56.612
+Sort of a dumb joke that I came up with at one point.
+
+819
+00:39:56.731 --> 00:39:58.175
+It was basically Python for big data.
+
+820
+00:39:58.512 --> 00:39:59.317
+So it's a big snake,
+
+821
+00:39:59.318 --> 00:39:59.909
+so Anaconda.
+
+822
+00:40:01.817 --> 00:40:03.331
+After, like a few years,
+
+823
+00:40:03.737 --> 00:40:07.817
+we kept going to conferences and going to places and people wouldn't know who we were.
+
+824
+00:40:07.925 --> 00:40:10.067
+But the instant that we mentioned that we make Anaconda,
+
+825
+00:40:10.472 --> 00:40:10.862
+they would say,
+
+826
+00:40:10.925 --> 00:40:11.206
+Oh yeah,
+
+827
+00:40:11.208 --> 00:40:11.567
+of course,
+
+828
+00:40:11.581 --> 00:40:12.206
+I love Anaconda.
+
+829
+00:40:12.222 --> 00:40:12.831
+I use it all the time,
+
+830
+00:40:12.862 --> 00:40:13.003
+right?
+
+831
+00:40:13.378 --> 00:40:14.460
+So after that happened,
+
+832
+00:40:14.639 --> 00:40:15.539
+like the thousands of times,
+
+833
+00:40:15.541 --> 00:40:15.760
+we said,
+
+834
+00:40:15.802 --> 00:40:15.961
+okay,
+
+835
+00:40:16.001 --> 00:40:17.583
+maybe we should rename the company Anaconda.
+
+836
+00:40:17.864 --> 00:40:22.289
+Data engineering became a discipline where Python was incredibly entrenched.
+
+837
+00:40:22.469 --> 00:40:23.228
+It was Python and
+
+838
+00:40:23.572 --> 00:40:23.688
+R.
+
+839
+00:40:24.391 --> 00:40:26.094
+And over time,
+
+840
+00:40:26.650 --> 00:40:31.978
+Python's data analysis libraries caught up, and plotting libraries and stuff started to catch up to what R had.
+
+841
+00:40:32.603 --> 00:40:33.414
+And then people realized,
+
+842
+00:40:33.525 --> 00:40:33.664
+oh,
+
+843
+00:40:33.806 --> 00:40:33.992
+well,
+
+844
+00:40:34.039 --> 00:40:34.664
+With Python,
+
+845
+00:40:34.697 --> 00:40:37.242
+I can work end-to-end with my data. Versus
+
+846
+00:40:37.806 --> 00:40:39.978
+R. Being very good at data analysis,
+
+847
+00:40:40.009 --> 00:40:42.322
+but not necessarily like the data collection stage.
+
+848
+00:40:42.492 --> 00:40:42.914
+Various other
+
+849
+00:40:43.523 --> 00:40:43.963
+stages.
+
+850
+00:40:44.483 --> 00:40:46.905
+I remember going to a Python conference at one point and I was like,
+
+851
+00:40:46.967 --> 00:40:49.427
+there's so many science-y people here.
+
+852
+00:40:49.907 --> 00:40:51.208
+Like, where are all the web developers?
+
+853
+00:40:51.210 --> 00:40:52.916
+This is all data, pipelines and stuff.
+
+854
+00:40:53.072 --> 00:40:56.157
+I don't want to be modest about this because it was a collective effort for the whole community.
+
+855
+00:40:56.619 --> 00:40:58.657
+But I think that what we did at Anaconda,
+
+856
+00:40:58.775 --> 00:41:02.822
+not only making the software installer that made it one click for people to just run,
+
+857
+00:41:02.963 --> 00:41:07.369
+but also shepherding the conferences and building that community and whatnot was really critical.
+
+858
+00:41:07.541 --> 00:41:11.494
+They were incredibly important contributions.
+
+859
+00:41:11.666 --> 00:41:12.775
+I think we actually, Hmm.
+
+860
+00:41:13.123 --> 00:41:14.585
+Made Python super popular.
+
+861
+00:41:15.164 --> 00:41:15.724
+I think we did.
+
+862
+00:41:24.652 --> 00:41:24.817
+Well,
+
+863
+00:41:24.833 --> 00:41:29.434
+I remember hearing from a friend of mine that Guido van Rossum was just working at Google.
+
+864
+00:41:30.621 --> 00:41:30.902
+And that,
+
+865
+00:41:31.965 --> 00:41:32.465
+when I thought about it,
+
+866
+00:41:32.467 --> 00:41:32.637
+I'm like,
+
+867
+00:41:32.637 --> 00:41:33.027
+wait,
+
+868
+00:41:33.028 --> 00:41:33.137
+yeah,
+
+869
+00:41:33.215 --> 00:41:33.449
+Guido,
+
+870
+00:41:33.996 --> 00:41:34.371
+I guess,
+
+871
+00:41:34.684 --> 00:41:37.059
+works at a normal company.
+
+872
+00:41:37.246 --> 00:41:40.043
+And I can't remember the exact circumstances,
+
+873
+00:41:40.045 --> 00:41:40.637
+but I think either
+
+874
+00:41:41.271 --> 00:41:42.612
+I got an introduction to him,
+
+875
+00:41:42.853 --> 00:41:43.452
+or I just maybe,
+
+876
+00:41:43.454 --> 00:41:44.914
+I think they just sent him an email saying,
+
+877
+00:41:44.934 --> 00:41:45.155
+hey,
+
+878
+00:41:46.635 --> 00:41:47.518
+big fan of your work.
+
+879
+00:41:47.898 --> 00:41:48.898
+It was like fan mail,
+
+880
+00:41:49.378 --> 00:41:49.980
+basically.
+
+881
+00:41:50.338 --> 00:41:51.081
+And he responded,
+
+882
+00:41:51.378 --> 00:41:52.463
+and we got lunch.
+
+883
+00:41:52.878 --> 00:41:53.121
+I mean,
+
+884
+00:41:53.143 --> 00:41:54.440
+he's a hero of mine,
+
+885
+00:41:54.668 --> 00:41:57.253
+and he was totally friendly and approachable.
+
+886
+00:41:57.581 --> 00:41:58.503
+And at that talk,
+
+887
+00:41:58.505 --> 00:42:02.675
+it was revealed that Dropbox was entirely written in Python,
+
+888
+00:42:02.956 --> 00:42:04.393
+both the client and the server.
+
+889
+00:42:04.706 --> 00:42:05.675
+And that was exciting.
+
+890
+00:42:06.034 --> 00:42:08.034
+He was interested in what we were doing with Python,
+
+891
+00:42:08.081 --> 00:42:09.518
+and I think we were stretching.
+
+892
+00:42:10.067 --> 00:42:12.989
+The language and the runtime in interesting ways.
+
+893
+00:42:13.190 --> 00:42:14.871
+He approached me again and said,
+
+894
+00:42:15.230 --> 00:42:15.472
+hey,
+
+895
+00:42:15.592 --> 00:42:17.514
+we would really like you to work for us.
+
+896
+00:42:17.956 --> 00:42:20.597
+And then, to my surprise and delight,
+
+897
+00:42:20.699 --> 00:42:22.722
+he ended up joining the Dropbox team,
+
+898
+00:42:23.237 --> 00:42:25.480
+which was super exciting for all of us.
+
+899
+00:42:26.135 --> 00:42:27.465
+I stayed there for seven years.
+
+900
+00:42:27.965 --> 00:42:33.293
+We did more important stuff for Python than I did during seven years in Google,
+
+901
+00:42:33.307 --> 00:42:33.527
+I think.
+
+902
+00:42:34.574 --> 00:42:36.840
+I think he had a big impact on the rest of the team.
+
+903
+00:42:37.355 --> 00:42:39.735
+Here's someone who's one of the icons of computing,
+
+904
+00:42:39.835 --> 00:42:45.414
+but you would never know it from how he badges in to the office every day.
+
+905
+00:42:45.478 --> 00:42:52.181
+And I think it's a really great example in terms of being super humble and curious and friendly.
+
+906
+00:42:52.961 --> 00:42:58.016
+It's hard for me to think of someone who has had more impact with lower ego.
+
+907
+00:43:00.438 --> 00:43:02.860
+Let's start with the first Python license plate.
+
+908
+00:43:03.925 --> 00:43:04.146
+Sorry,
+
+909
+00:43:06.628 --> 00:43:08.809
+that was my car where I lived in Virginia.
+
+910
+00:43:09.291 --> 00:43:12.614
+And there was a box on the application.
+
+911
+00:43:13.217 --> 00:43:13.434
+Sorry,
+
+912
+00:43:13.920 --> 00:43:15.217
+just wear the other one, too.
+
+913
+00:43:17.123 --> 00:43:18.856
+Do you want custom license plate?
+
+914
+00:43:19.201 --> 00:43:21.528
+So I managed to get Python in Virginia.
+
+915
+00:43:21.778 --> 00:43:23.028
+And in California,
+
+916
+00:43:23.106 --> 00:43:25.264
+Python was long taken.
+
+917
+00:43:26.748 --> 00:43:29.373
+Like, someone in Silicon Valley probably has a
+
+918
+00:43:29.826 --> 00:43:31.217
+Python license plate somewhere.
+
+919
+00:43:32.061 --> 00:43:34.083
+So the best I could get was Py3K,
+
+920
+00:43:34.324 --> 00:43:37.106
+which I thought was pretty cute anyway.
+
+921
+00:43:40.313 --> 00:43:41.773
+It became ever more popular.
+
+922
+00:43:42.835 --> 00:43:46.797
+And people started thinking about flaws in the language.
+
+923
+00:43:47.179 --> 00:43:51.202
+There were a lot of ideas floating around the core development community,
+
+924
+00:43:51.452 --> 00:43:54.688
+changes you could make to the language that people thought would be major improvements.
+
+925
+00:43:54.688 --> 00:43:59.969
+The only problem with them was that they would break old Python code that currently existed.
+
+926
+00:44:00.266 --> 00:44:00.735
+Some of that...
+
+927
+00:44:00.958 --> 00:44:04.181
+Probably got away from us a little bit, in hindsight.
+
+928
+00:44:06.664 --> 00:44:13.434
+We released Python 3.0 in December of 2007.
+
+929
+00:44:13.909 --> 00:44:17.309
+I remember because I was actually interning under Guido at the time.
+
+930
+00:44:17.996 --> 00:44:20.277
+We were giving people roughly five years,
+
+931
+00:44:20.324 --> 00:44:20.684
+I think,
+
+932
+00:44:20.731 --> 00:44:21.621
+to do the transition.
+
+933
+00:44:22.246 --> 00:44:24.824
+And everyone thought that was just extraordinarily generous.
+
+934
+00:44:25.121 --> 00:44:28.793
+The world would totally be on Python 3 in just a few years.
+
+935
+00:44:29.030 --> 00:44:30.512
+This is best for the language long term.
+
+936
+00:44:30.570 --> 00:44:31.793
+We're going to make these changes.
+
+937
+00:44:31.893 --> 00:44:33.094
+The community has always come along with this.
+
+938
+00:44:33.096 --> 00:44:35.074
+We think they'll come along with this journey as well.
+
+939
+00:44:35.336 --> 00:44:36.836
+We were very naive about that.
+
+940
+00:44:37.621 --> 00:44:38.996
+And they made us know it.
+
+941
+00:44:43.387 --> 00:44:44.184
+The community said,
+
+942
+00:44:44.208 --> 00:44:44.324
+no,
+
+943
+00:44:44.722 --> 00:44:45.262
+not worth it.
+
+944
+00:44:45.621 --> 00:44:45.887
+Kill it.
+
+945
+00:44:45.965 --> 00:44:46.402
+Don't do it.
+
+946
+00:44:46.746 --> 00:44:47.606
+It's not going to work.
+
+947
+00:44:48.965 --> 00:44:52.434
+This included some very notable individuals in the community.
+
+948
+00:45:09.400 --> 00:45:09.565
+Hi,
+
+949
+00:45:09.909 --> 00:45:10.463
+my name is Armin.
+
+950
+00:45:11.050 --> 00:45:14.166
+You might be familiar with some of the Python libraries that I wrote,
+
+951
+00:45:14.393 --> 00:45:15.956
+and you might even maybe use some of them.
+
+952
+00:45:16.706 --> 00:45:18.893
+The Python 2 to Python 3 transition,
+
+953
+00:45:19.190 --> 00:45:21.878
+initially, it happened very gradually over many years.
+
+954
+00:45:22.378 --> 00:45:23.675
+There was the version that everybody used,
+
+955
+00:45:23.753 --> 00:45:26.159
+and there was sort of the version on the side of the build that nobody used.
+
+956
+00:45:26.378 --> 00:45:28.222
+People didn't want to put in the effort.
+
+957
+00:45:28.318 --> 00:45:29.978
+Because their code worked.
+
+958
+00:45:30.119 --> 00:45:30.398
+You know,
+
+959
+00:45:30.661 --> 00:45:31.400
+why rewrite it?
+
+960
+00:45:31.402 --> 00:45:34.543
+It's very hard to mix button two and three.
+
+961
+00:45:37.786 --> 00:45:39.786
+It's a headache.
+
+962
+00:45:40.067 --> 00:45:41.168
+So I just didn't move.
+
+963
+00:45:41.472 --> 00:45:42.269
+And a lot of people did.
+
+964
+00:45:42.769 --> 00:45:45.762
+It felt there's a likelihood that it will not go anywhere.
+
+965
+00:45:46.512 --> 00:45:51.918
+It felt much more like a top-down decision than any of the things in the past.
+
+966
+00:45:52.481 --> 00:45:53.856
+And that top-down decision,
+
+967
+00:45:54.340 --> 00:45:57.246
+I think for some people, felt like it was not inclusive.
+
+968
+00:45:57.842 --> 00:46:02.626
+Of the real pains of people who had a long tail of use cases.
+
+969
+00:46:03.005 --> 00:46:08.534
+I think I severely underestimated how successful Python already was,
+
+970
+00:46:08.815 --> 00:46:20.338
+how many people had written so much code in Python 2 that it would be hard for them to sort of put the effort into translating to Python 3.
+
+971
+00:46:20.588 --> 00:46:26.385
+The most controversial thing by far was that we wanted to change the way Unicode was handled.
+
+972
+00:46:26.766 --> 00:46:30.190
+A way to say these things are strings and they're human consumable,
+
+973
+00:46:30.228 --> 00:46:32.632
+they're words that people want to read and write,
+
+974
+00:46:32.670 --> 00:46:33.791
+and these things are bytes.
+
+975
+00:46:33.853 --> 00:46:36.494
+These are things that computers want to read and write.
+
+976
+00:46:39.456 --> 00:46:44.800
+We basically made all strings unicode, and we made you use a new prefix B for bytes.
+
+977
+00:46:45.487 --> 00:46:47.503
+And this was incredibly disturbing.
+
+978
+00:46:47.862 --> 00:46:54.581
+I was implementing a WSGI library at the time. And one of the things that you do when you implement WSGI is that you have to parse HTTP data,
+
+979
+00:46:54.612 --> 00:46:55.909
+you have to parse cookie data.
+
+980
+00:46:56.458 --> 00:46:56.797
+And there,
+
+981
+00:46:56.798 --> 00:46:59.300
+there was always a mixture of bytes and Unicode.
+
+982
+00:46:59.681 --> 00:47:01.501
+And it was very easy to work with on Python 2,
+
+983
+00:47:01.623 --> 00:47:04.244
+and it was incredibly annoying to work on Python 3,
+
+984
+00:47:04.326 --> 00:47:05.447
+at least initially.
+
+985
+00:47:06.346 --> 00:47:11.072
+There really wasn't a way to convert your Python 2 code to Python 3.
+
+986
+00:47:11.275 --> 00:47:12.838
+The tools didn't exist.
+
+987
+00:47:13.056 --> 00:47:14.869
+I started writing blog posts about it,
+
+988
+00:47:14.916 --> 00:47:18.338
+why? I think that in a way in which Python 3 works right now,
+
+989
+00:47:18.541 --> 00:47:19.556
+I just cannot see the move.
+
+990
+00:47:31.713 --> 00:47:33.653
+He was a valued community member.
+
+991
+00:47:33.974 --> 00:47:35.155
+And at the time,
+
+992
+00:47:35.275 --> 00:47:40.438
+I was actually quite surprised that he was so viciously attacking Python
+
+993
+00:47:41.079 --> 00:47:45.900
+3. I was probably even more negative on it than appropriate.
+
+994
+00:47:45.954 --> 00:47:48.822
+But Python has such a good run and it puts so much energy into it.
+
+995
+00:47:49.742 --> 00:47:53.275
+I was part of building out web frameworks and all these libraries.
+
+996
+00:47:53.681 --> 00:47:54.117
+I felt like,
+
+997
+00:47:54.134 --> 00:47:58.603
+why are we ruining all of this with this move that didn't even have that many benefits?
+
+998
+00:47:59.400 --> 00:48:00.164
+I had not...
+
+999
+00:48:00.586 --> 00:48:02.503
+Appreciated how many people
+
+1000
+00:48:03.250 --> 00:48:09.617
+already had enormous code bases or were on their way to building up enormous code bases.
+
+1001
+00:48:10.097 --> 00:48:14.577
+Payback for that was that I had to initiate the project at Dropbox.
+
+1002
+00:48:14.938 --> 00:48:21.983
+We had a pretty long road to migrate many, millions of lines of Python 2 code.
+
+1003
+00:48:22.125 --> 00:48:26.188
+Five million lines of code in the server alone and another million for the client.
+
+1004
+00:48:26.858 --> 00:48:29.577
+That is a very large pile of code to...
+
+1005
+00:48:29.661 --> 00:48:30.422
+transform.
+
+1006
+00:48:30.563 --> 00:48:36.387
+And so we had to invent ways of sort of doing it in pieces.
+
+1007
+00:48:56.184 --> 00:48:56.309
+A
+
+1008
+00:48:56.371 --> 00:48:58.184
+funny sticker I find in my pocket.
+
+1009
+00:48:59.230 --> 00:49:01.072
+There's a build tool called Bazel.
+
+1010
+00:49:01.393 --> 00:49:03.793
+It's sort of a frozen version of Python 2.
+
+1011
+00:49:04.753 --> 00:49:06.317
+So here the sticker says,
+
+1012
+00:49:07.121 --> 00:49:08.481
+after re-education,
+
+1013
+00:49:08.762 --> 00:49:09.659
+enemy of the people,
+
+1014
+00:49:09.777 --> 00:49:10.340
+Python,
+
+1015
+00:49:10.840 --> 00:49:12.722
+denounced their bourgeois class,
+
+1016
+00:49:12.887 --> 00:49:15.965
+renounced formalist notions like turing, completeness,
+
+1017
+00:49:16.402 --> 00:49:19.543
+and began a new life as citizen Starlark.
+
+1018
+00:49:21.184 --> 00:49:24.621
+This is especially an example of Benjamin Peterson's humor.
+
+1019
+00:49:27.489 --> 00:49:29.012
+I had the fortune or the misfortune,
+
+1020
+00:49:29.012 --> 00:49:30.353
+depending on how you see it,
+
+1021
+00:49:30.574 --> 00:49:30.972
+to be the
+
+1022
+00:49:31.695 --> 00:49:35.039
+Python 2.7 release manager for an entire decade.
+
+1023
+00:49:36.659 --> 00:49:48.456
+We had to adjust our plans for Python 3 and for Python 2 so that there was a longer series of releases where there were both new Python 2 versions and new Python 3 versions.
+
+1024
+00:49:48.878 --> 00:49:52.300
+What ended up happening is in the community was like maintaining 2 and 3,
+
+1025
+00:49:53.081 --> 00:49:54.003
+and that created a lot of burden.
+
+1026
+00:49:54.628 --> 00:49:57.097
+And so this is happening, all during the growth of NumPy.
+
+1027
+00:49:57.961 --> 00:49:59.222
+We made it work for Python 2,
+
+1028
+00:49:59.702 --> 00:50:02.483
+and then I think Python 3.1,
+
+1029
+00:50:02.483 --> 00:50:02.744
+I think,
+
+1030
+00:50:02.764 --> 00:50:03.264
+or 3.2,
+
+1031
+00:50:03.264 --> 00:50:04.244
+We also made it work there,
+
+1032
+00:50:04.704 --> 00:50:05.681
+but saw no adoption.
+
+1033
+00:50:11.342 --> 00:50:13.108
+We knew it was going to take a long time.
+
+1034
+00:50:14.905 --> 00:50:16.420
+We knew it was going to be painful,
+
+1035
+00:50:17.530 --> 00:50:19.264
+but there is light at the end of the tunnel.
+
+1036
+00:50:19.545 --> 00:50:21.764
+The community contributed, stuff like lib2to3,
+
+1037
+00:50:22.483 --> 00:50:24.748
+and other migration tools came out.
+
+1038
+00:50:24.969 --> 00:50:28.994
+Benjamin Peterson wrote Six. That really helped that transition.
+
+1039
+00:50:29.175 --> 00:50:32.679
+The language itself became a little more backwards compatible.
+
+1040
+00:50:33.135 --> 00:50:36.963
+I eventually advocated to bring back the U prefix on the strings.
+
+1041
+00:50:37.385 --> 00:50:41.306
+And that actually made it easier to write unified code bases that target both Python 2 and Python 3.
+
+1042
+00:50:41.791 --> 00:50:45.822
+There was a point in time where we made a very strong declaration.
+
+1043
+00:50:46.494 --> 00:50:49.947
+There will never be a Python 2.8, and Python 3 is the future.
+
+1044
+00:50:53.525 --> 00:50:55.867
+Python 3 just is a better language,
+
+1045
+00:50:56.827 --> 00:50:59.652
+and it is getting better over time.
+
+1046
+00:50:59.813 --> 00:51:00.394
+Python 2,
+
+1047
+00:51:00.492 --> 00:51:01.331
+on the other hand,
+
+1048
+00:51:01.496 --> 00:51:02.612
+is a fine language,
+
+1049
+00:51:03.456 --> 00:51:05.777
+and it will remain exactly what it is.
+
+1050
+00:51:06.175 --> 00:51:06.996
+For a long time,
+
+1051
+00:51:07.019 --> 00:51:10.628
+there was a lot of measurement of how much Python 2 usage is there,
+
+1052
+00:51:10.630 --> 00:51:12.067
+how much Python 3 usage is there.
+
+1053
+00:51:12.300 --> 00:51:14.112
+I think it was when Pycon was in Portland,
+
+1054
+00:51:14.347 --> 00:51:16.612
+was roughly when we started to see like 50-50.
+
+1055
+00:51:17.409 --> 00:51:18.956
+Once 3.4 came out,
+
+1056
+00:51:19.128 --> 00:51:22.253
+it actually added some features that were interesting to people.
+
+1057
+00:51:22.498 --> 00:51:22.637
+oh,
+
+1058
+00:51:22.797 --> 00:51:24.039
+I want that capability.
+
+1059
+00:51:24.699 --> 00:51:25.061
+So to me,
+
+1060
+00:51:25.221 --> 00:51:27.842
+Python 3.4 was really Python 3.0.
+
+1061
+00:51:28.784 --> 00:51:30.827
+And then 3.5 was an even bigger milestone.
+
+1062
+00:51:31.224 --> 00:51:33.927
+That was the one that got widespread adoption of Python 3.
+
+1063
+00:51:34.873 --> 00:51:36.913
+And by the time Python 3.5 came out,
+
+1064
+00:51:36.914 --> 00:51:38.827
+then it was clear that Python 3 would work.
+
+1065
+00:51:39.170 --> 00:51:43.139
+And then you started to have companies come out and give talks, like Instagram's talk,
+
+1066
+00:51:43.202 --> 00:51:44.420
+which I believe was also important.
+
+1067
+00:51:44.422 --> 00:51:45.061
+It was a big deal.
+
+1068
+00:51:48.780 --> 00:51:48.983
+Yes,
+
+1069
+00:51:49.061 --> 00:51:49.827
+you heard it, right.
+
+1070
+00:51:50.186 --> 00:51:51.545
+Instagram has been running...
+
+1071
+00:51:51.989 --> 00:51:54.010
+Fully on Python 3 for a few months.
+
+1072
+00:51:55.092 --> 00:51:56.034
+The whole process took,
+
+1073
+00:51:56.112 --> 00:51:56.514
+I would say,
+
+1074
+00:51:56.554 --> 00:51:57.956
+about 9 to 10 months.
+
+1075
+00:51:58.135 --> 00:52:02.983
+And I think Instagram is the largest production deployment for Python at the time.
+
+1076
+00:52:03.382 --> 00:52:04.639
+She gave a very good,
+
+1077
+00:52:04.820 --> 00:52:07.905
+very thorough talk, explaining why they did it.
+
+1078
+00:52:08.061 --> 00:52:08.623
+Two main things,
+
+1079
+00:52:08.686 --> 00:52:09.967
+typing and async IO.
+
+1080
+00:52:10.311 --> 00:52:11.092
+How they did it.
+
+1081
+00:52:11.327 --> 00:52:15.498
+We cleaned out all the libraries that are not making the migration from Python 2 to 3.
+
+1082
+00:52:15.655 --> 00:52:16.686
+How you should do it.
+
+1083
+00:52:16.967 --> 00:52:17.514
+Unitest.
+
+1084
+00:52:17.858 --> 00:52:19.858
+What they had learned during the process.
+
+1085
+00:52:20.054 --> 00:52:24.157
+We had actually some good performance gains as well after our migration.
+
+1086
+00:52:24.400 --> 00:52:37.271
+It felt as vindication that at least there were large companies that took the time to do it right and to convert all their code to PIFO3 and were able to do it successfully.
+
+1087
+00:52:37.896 --> 00:52:39.458
+It was definitely well received.
+
+1088
+00:52:39.693 --> 00:52:42.911
+We got a lot of people saying we really wanted to migrate as well,
+
+1089
+00:52:43.474 --> 00:52:48.427
+but we weren't getting the kind of support that my team or my company was giving us.
+
+1090
+00:52:48.443 --> 00:52:48.755
+And now.
+
+1091
+00:52:49.057 --> 00:52:51.141
+I can bring this back to my management.
+
+1092
+00:52:51.201 --> 00:52:54.842
+And that really gave people confidence in migrating to Python 3.
+
+1093
+00:52:55.923 --> 00:52:57.083
+It became like, a,
+
+1094
+00:52:57.708 --> 00:52:57.849
+look,
+
+1095
+00:52:58.123 --> 00:52:59.005
+Instagram can do it.
+
+1096
+00:52:59.224 --> 00:53:00.130
+Why don't you do it?
+
+1097
+00:53:00.231 --> 00:53:01.693
+Instagram's getting benefits,
+
+1098
+00:53:01.833 --> 00:53:02.630
+new features,
+
+1099
+00:53:02.731 --> 00:53:03.068
+faster.
+
+1100
+00:53:03.878 --> 00:53:06.358
+Why don't you also want that benefit?
+
+1101
+00:53:18.202 --> 00:53:20.342
+Projects undergo things like this,
+
+1102
+00:53:20.577 --> 00:53:20.764
+and
+
+1103
+00:53:21.561 --> 00:53:22.655
+Python learned a lot from it.
+
+1104
+00:53:22.842 --> 00:53:26.920
+And it did actually eventually end up, with Python 3 being a pretty good spot again,
+
+1105
+00:53:27.139 --> 00:53:28.967
+that it was safe to use.
+
+1106
+00:53:28.969 --> 00:53:30.061
+And safe to use. Sounds weird,
+
+1107
+00:53:30.077 --> 00:53:30.358
+but like...
+
+1108
+00:53:30.858 --> 00:53:33.880
+Where I felt like I can actually start new projects on Python 3 now,
+
+1109
+00:53:34.440 --> 00:53:40.527
+because we're back to a stable situation where you're about as productive as I felt like I was with Python 2.
+
+1110
+00:53:40.527 --> 00:53:40.590
+Hi,
+
+1111
+00:53:40.590 --> 00:53:41.409
+Anna.
+
+1112
+00:53:41.487 --> 00:53:42.690
+Nice to meet you.
+
+1113
+00:53:42.692 --> 00:53:43.590
+I really liked your talk.
+
+1114
+00:53:43.768 --> 00:53:45.371
+But it was basically time that healed it.
+
+1115
+00:53:45.831 --> 00:53:50.534
+When Python 2.7 was declared that there wouldn't be any more security fixes,
+
+1116
+00:53:50.893 --> 00:53:52.518
+it became a security concern.
+
+1117
+00:53:52.706 --> 00:53:54.487
+That was sort of the final push.
+
+1118
+00:53:55.034 --> 00:54:00.143
+People who donated their work to do this migration in the wider Python world and community.
+
+1119
+00:54:00.557 --> 00:54:02.938
+Eventually got the world running on Python 3.
+
+1120
+00:54:03.380 --> 00:54:04.041
+But, as I said,
+
+1121
+00:54:04.081 --> 00:54:05.623
+like, it was a decade long process.
+
+1122
+00:54:05.724 --> 00:54:09.748
+And I don't think anybody anticipated how much work it would need to move to Python 3.
+
+1123
+00:54:10.364 --> 00:54:15.436
+I think Python's probably too big to ever go through a transition like that today.
+
+1124
+00:54:15.592 --> 00:54:19.092
+The community was maybe a little too big,
+
+1125
+00:54:19.170 --> 00:54:20.356
+but not too big.
+
+1126
+00:54:20.764 --> 00:54:24.889
+I even still get angry messages, sometimes from people who are like,
+
+1127
+00:54:25.123 --> 00:54:26.811
+my code needs Python 2.7,
+
+1128
+00:54:26.856 --> 00:54:27.967
+you need to provide it.
+
+1129
+00:54:28.106 --> 00:54:29.264
+And I tell them, no.
+
+1130
+00:54:31.679 --> 00:54:34.623
+I never wavered in my commitment to Python 3.
+
+1131
+00:54:34.900 --> 00:54:36.724
+It was a lesson learned, for sure.
+
+1132
+00:54:37.085 --> 00:54:37.885
+For a long time,
+
+1133
+00:54:37.943 --> 00:54:40.349
+I regularly joked there would be a Python 4,
+
+1134
+00:54:40.490 --> 00:54:45.771
+but the transition would be handled much better than the transition to Python 3.
+
+1135
+00:54:45.835 --> 00:54:47.608
+I felt I owed that to the community.
+
+1136
+00:54:48.342 --> 00:54:52.592
+And now the mantra has changed to There will never be even a Python 4.
+
+1137
+00:54:53.217 --> 00:54:54.045
+To be honest,
+
+1138
+00:54:54.389 --> 00:54:58.202
+I don't know how many people in Python even know about the whole transition.
+
+1139
+00:54:58.693 --> 00:55:01.137
+Because that all ended in 2020.
+
+1140
+00:55:01.137 --> 00:55:01.956
+At least it's behind us.
+
+1141
+00:55:18.032 --> 00:55:18.454
+Okay,
+
+1142
+00:55:18.532 --> 00:55:19.971
+so now we get in the closet.
+
+1143
+00:55:21.940 --> 00:55:23.423
+So there's the Frisbee.
+
+1144
+00:55:24.846 --> 00:55:27.657
+This is the most unique merch.
+
+1145
+00:55:28.065 --> 00:55:30.827
+I've ever seen related to Python.
+
+1146
+00:55:32.128 --> 00:55:33.769
+Now, here's a significant t-shirt.
+
+1147
+00:55:34.731 --> 00:55:36.277
+It says Python is for girls.
+
+1148
+00:55:37.472 --> 00:55:44.081
+I received this anonymously in the mail at Google.
+
+1149
+00:55:44.722 --> 00:55:45.487
+And to this day,
+
+1150
+00:55:45.628 --> 00:55:48.737
+I don't know exactly what the intention of the sender was.
+
+1151
+00:55:48.769 --> 00:55:50.394
+They never revealed themselves,
+
+1152
+00:55:50.769 --> 00:55:51.534
+at least not to me.
+
+1153
+00:55:52.567 --> 00:55:54.597
+And I don't know if there was an intention even,
+
+1154
+00:55:55.269 --> 00:55:57.112
+but I sort of realized at that point.
+
+1155
+00:55:58.230 --> 00:56:03.195
+That there wasn't a whole lot of women in the Python community.
+
+1156
+00:56:04.797 --> 00:56:07.699
+And the community also discovered that and fixed it for the
+
+1157
+00:56:08.059 --> 00:56:09.099
+Python conference.
+
+1158
+00:56:14.443 --> 00:56:20.349
+This idea of being a place where people from a wide range of backgrounds can learn how to program,
+
+1159
+00:56:20.474 --> 00:56:21.896
+benefit from programming,
+
+1160
+00:56:21.989 --> 00:56:22.833
+find community.
+
+1161
+00:56:23.614 --> 00:56:25.333
+There really was some snowballing.
+
+1162
+00:56:25.554 --> 00:56:29.056
+Adoption of these ideas across languages at the time.
+
+1163
+00:56:30.458 --> 00:56:34.501
+Jessica McKellar looks at the speakers at Pycon and says,
+
+1164
+00:56:34.806 --> 00:56:35.563
+there's only 3%
+
+1165
+00:56:36.001 --> 00:56:36.563
+that are women.
+
+1166
+00:56:37.282 --> 00:56:38.282
+What can we do about this?
+
+1167
+00:56:38.907 --> 00:56:42.572
+She was co-organizer of the biggest Python meetup in the world in Boston.
+
+1168
+00:56:43.197 --> 00:56:44.431
+She knew what she was talking about.
+
+1169
+00:56:44.900 --> 00:56:45.916
+It's not rocket science.
+
+1170
+00:56:46.041 --> 00:56:46.416
+It's like,
+
+1171
+00:56:46.900 --> 00:56:48.681
+ask people if they're interested in speaking.
+
+1172
+00:56:48.838 --> 00:56:55.150
+And we just providing like a little bit of support drove a huge.
+
+1173
+00:56:55.534 --> 00:57:02.001
+Shift in the volume and demographics of the talks that were submitted.
+
+1174
+00:57:02.521 --> 00:57:03.724
+And then, three years later,
+
+1175
+00:57:04.061 --> 00:57:05.021
+like, 45%
+
+1176
+00:57:05.264 --> 00:57:06.606
+of the speakers are women.
+
+1177
+00:57:07.286 --> 00:57:08.467
+I forget what the number was,
+
+1178
+00:57:08.505 --> 00:57:10.849
+but I think it was almost even with male speakers.
+
+1179
+00:57:11.396 --> 00:57:12.036
+PyCon.
+
+1180
+00:57:13.818 --> 00:57:15.177
+I had an old tweet about this,
+
+1181
+00:57:15.193 --> 00:57:16.193
+so I just pulled this up.
+
+1182
+00:57:16.833 --> 00:57:17.068
+It says,
+
+1183
+00:57:17.130 --> 00:57:18.708
+Hello from your Pycon Diversity chair.
+
+1184
+00:57:19.099 --> 00:57:21.271
+So the percentage of Pycon talks by women,
+
+1185
+00:57:21.396 --> 00:57:22.083
+2011,
+
+1186
+00:57:22.085 --> 00:57:22.521
+it was 1%.
+
+1187
+00:57:22.521 --> 00:57:23.943
+2012,
+
+1188
+00:57:23.943 --> 00:57:25.005
+it was 7%.
+
+1189
+00:57:25.110 --> 00:57:25.951
+2013,
+
+1190
+00:57:26.110 --> 00:57:27.050
+15%.
+
+1191
+00:57:27.092 --> 00:57:31.574
+2014 and 2015,
+
+1192
+00:57:31.576 --> 00:57:32.175
+33%.
+
+1193
+00:57:32.177 --> 00:57:32.777
+And 2016,
+
+1194
+00:57:32.797 --> 00:57:33.079
+40%.
+
+1195
+00:57:33.079 --> 00:57:34.501
+Problems have solutions.
+
+1196
+00:57:34.679 --> 00:57:37.579
+That was a very inspiring story to me also.
+
+1197
+00:57:38.023 --> 00:57:41.626
+Something that was less inspiring to me was that at the language Summit,
+
+1198
+00:57:41.829 --> 00:57:44.235
+there wasn't a single woman in the room.
+
+1199
+00:57:45.389 --> 00:57:49.992
+And I don't believe we have a single female committer to Core Python.
+
+1200
+00:57:50.813 --> 00:57:55.157
+There wasn't ever ill intent,
+
+1201
+00:57:55.438 --> 00:58:02.570
+but unfortunately we fell into the trap of not doing enough. Diversity reach out to try to get more people to come in.
+
+1202
+00:58:03.148 --> 00:58:03.664
+To be honest,
+
+1203
+00:58:03.681 --> 00:58:04.586
+it was a lot of white men.
+
+1204
+00:58:05.101 --> 00:58:06.414
+So Guido wanted to change that.
+
+1205
+00:58:06.976 --> 00:58:13.461
+I want at least two female core Python devs in the next year.
+
+1206
+00:58:13.753 --> 00:58:16.817
+And I will try to train them myself if that's what it takes.
+
+1207
+00:58:18.139 --> 00:58:18.958
+So come talk to me.
+
+1208
+00:58:21.322 --> 00:58:25.947
+I believe one of the first people who took up that call was Marietta.
+
+1209
+00:58:35.643 --> 00:58:40.735
+Even though I've always been passionate about technology and programming,
+
+1210
+00:58:41.143 --> 00:58:42.518
+I also felt it.
+
+1211
+00:58:42.885 --> 00:58:46.449
+Wasn't a welcoming environment for women.
+
+1212
+00:58:47.248 --> 00:58:50.795
+My schoolmates who took computer science are mostly men.
+
+1213
+00:58:51.257 --> 00:58:52.835
+Most of the professors were men.
+
+1214
+00:58:53.155 --> 00:58:54.039
+And at work,
+
+1215
+00:58:54.414 --> 00:58:56.242
+most of my coworkers were men.
+
+1216
+00:58:56.382 --> 00:59:04.382
+And I just didn't really have examples or role models of women being successful in tech industry.
+
+1217
+00:59:07.117 --> 00:59:09.820
+One of my coworkers went to PyCon.
+
+1218
+00:59:10.257 --> 00:59:12.039
+He saw that at that conference,
+
+1219
+00:59:12.242 --> 00:59:14.443
+there is this community called BiLadies,
+
+1220
+00:59:16.226 --> 00:59:17.324
+and I felt like
+
+1221
+00:59:18.668 --> 00:59:19.509
+I want to meet them.
+
+1222
+00:59:33.121 --> 00:59:34.590
+So in 2015,
+
+1223
+00:59:34.981 --> 00:59:37.387
+that's when I decided I want to go to PyCon.
+
+1224
+00:59:38.806 --> 00:59:40.047
+At this conference,
+
+1225
+00:59:40.208 --> 00:59:44.811
+I get to see a lot of women speaking and presenting.
+
+1226
+00:59:45.713 --> 00:59:48.213
+At my previous tech conference,
+
+1227
+00:59:48.378 --> 00:59:49.518
+all the speakers were men,
+
+1228
+00:59:49.635 --> 00:59:51.034
+all the keynote speakers were men,
+
+1229
+00:59:51.121 --> 00:59:53.018
+so this was really different.
+
+1230
+00:59:55.815 --> 00:59:59.862
+One of the keynote speakers at that same conference was Guido van Drassen.
+
+1231
+01:00:00.034 --> 01:00:00.206
+Hello,
+
+1232
+01:00:00.331 --> 01:00:00.768
+everybody.
+
+1233
+01:00:01.612 --> 01:00:02.597
+Glad to see you all.
+
+1234
+01:00:02.925 --> 01:00:07.097
+I want to meet and see the creator of Python programming language.
+
+1235
+01:00:07.237 --> 01:00:10.282
+And I will try to train them myself if that's what it takes.
+
+1236
+01:00:10.442 --> 01:00:11.501
+I heard this speech.
+
+1237
+01:00:11.802 --> 01:00:12.264
+However,
+
+1238
+01:00:12.362 --> 01:00:13.123
+at that time,
+
+1239
+01:00:13.423 --> 01:00:15.661
+I just didn't think that it's something
+
+1240
+01:00:17.005 --> 01:00:17.489
+I could do.
+
+1241
+01:00:18.364 --> 01:00:21.030
+I wasn't even contributing to the Python community.
+
+1242
+01:00:21.208 --> 01:00:23.568
+I didn't contribute to open source at all.
+
+1243
+01:00:24.818 --> 01:00:25.474
+I just thought,
+
+1244
+01:00:25.989 --> 01:00:29.599
+I'm sure they will find women next year.
+
+1245
+01:00:35.318 --> 01:00:36.059
+The year after,
+
+1246
+01:00:36.139 --> 01:00:40.925
+I went back to Pycon U.S. and Guido van Rossum gave another keynote.
+
+1247
+01:00:41.043 --> 01:00:43.925
+We still don't have two female core developers.
+
+1248
+01:00:44.206 --> 01:00:45.143
+I think at that time,
+
+1249
+01:00:45.190 --> 01:00:47.371
+that's something really clicked on me.
+
+1250
+01:00:47.487 --> 01:00:50.753
+Like, I realized that there's something within me that says,
+
+1251
+01:00:50.956 --> 01:00:52.050
+if nobody's doing it,
+
+1252
+01:00:52.768 --> 01:00:53.362
+I will do it.
+
+1253
+01:00:55.159 --> 01:00:55.784
+I wrote to
+
+1254
+01:00:56.159 --> 01:00:59.393
+Guido van Rossum and I asked him for help.
+
+1255
+01:01:00.456 --> 01:01:02.190
+Somehow, I felt really scared.
+
+1256
+01:01:02.378 --> 01:01:04.112
+I just didn't feel like.
+
+1257
+01:01:04.818 --> 01:01:08.442
+I deserve mentorship from Guido van Rossum.
+
+1258
+01:01:08.561 --> 01:01:12.626
+So I was really hesitated to send this email to him.
+
+1259
+01:01:13.030 --> 01:01:13.724
+But in the end,
+
+1260
+01:01:14.130 --> 01:01:14.905
+I realized that
+
+1261
+01:01:15.311 --> 01:01:16.068
+I want to try.
+
+1262
+01:01:16.170 --> 01:01:16.326
+Like,
+
+1263
+01:01:16.364 --> 01:01:19.170
+I felt like this was a great opportunity for me.
+
+1264
+01:01:19.489 --> 01:01:20.436
+I pressed the send button.
+
+1265
+01:01:27.414 --> 01:01:28.335
+I got a reply.
+
+1266
+01:01:28.855 --> 01:01:30.137
+He was very friendly.
+
+1267
+01:01:30.518 --> 01:01:32.900
+He started sharing resources about,
+
+1268
+01:01:32.920 --> 01:01:33.157
+you know,
+
+1269
+01:01:33.239 --> 01:01:35.661
+how to get started contributing to Python.
+
+1270
+01:01:36.021 --> 01:01:38.123
+He offered to do like video chats.
+
+1271
+01:01:38.403 --> 01:01:41.489
+It's been really helpful to have his moral support.
+
+1272
+01:01:41.889 --> 01:01:45.911
+We had a pretty sort of deep mentorship relationship for a few years.
+
+1273
+01:01:46.927 --> 01:01:51.396
+Mary learned the process from Guido and continued to contribute more and more,
+
+1274
+01:01:51.536 --> 01:01:52.443
+very much around tooling.
+
+1275
+01:01:52.552 --> 01:01:55.036
+Like, she really found her niche.
+
+1276
+01:01:55.525 --> 01:01:57.487
+In terms of trying to help make our development process easier?
+
+1277
+01:01:58.548 --> 01:02:00.311
+It was scary at first.
+
+1278
+01:02:00.349 --> 01:02:00.490
+Like,
+
+1279
+01:02:00.530 --> 01:02:05.213
+I just didn't feel comfortable sharing my questions in public.
+
+1280
+01:02:05.753 --> 01:02:07.378
+I didn't want people to know that,
+
+1281
+01:02:08.378 --> 01:02:10.923
+I don't know how to do certain things.
+
+1282
+01:02:11.478 --> 01:02:15.025
+I didn't want people to see that I'm actually not that good.
+
+1283
+01:02:16.025 --> 01:02:19.306
+But this is how it works in open source.
+
+1284
+01:02:19.463 --> 01:02:24.806
+And the community has always been kind and helped me with my...
+
+1285
+01:02:25.422 --> 01:02:29.807
+Questions without saying that you're stupid.
+
+1286
+01:02:29.865 --> 01:02:30.065
+Like,
+
+1287
+01:02:30.487 --> 01:02:32.947
+I never felt like I was being judged.
+
+1288
+01:02:34.452 --> 01:02:38.990
+I think it does start with
+
+1289
+01:02:40.233 --> 01:02:45.288
+Guido. The fact that Guido was very active in bringing more voices.
+
+1290
+01:02:45.478 --> 01:02:49.222
+Into Python absolutely made Python better and stronger.
+
+1291
+01:02:49.403 --> 01:02:53.349
+Just the way the whole community works and what we stand for,
+
+1292
+01:02:53.989 --> 01:02:56.130
+thanks to Guido's leadership,
+
+1293
+01:02:56.411 --> 01:02:59.208
+is where I want to be.
+
+1294
+01:03:00.090 --> 01:03:01.458
+And I think that's true for a lot of people.
+
+1295
+01:03:10.739 --> 01:03:11.786
+About six,
+
+1296
+01:03:11.943 --> 01:03:12.739
+seven months.
+
+1297
+01:03:13.106 --> 01:03:15.286
+After I started reaching out to Guido,
+
+1298
+01:03:15.726 --> 01:03:19.146
+I was recommended to become a Python core developer.
+
+1299
+01:03:20.586 --> 01:03:24.349
+It really wasn't until four months ago that for the first time ever,
+
+1300
+01:03:26.911 --> 01:03:37.465
+there's a woman who became a Python core developer and earned that commit privilege.
+
+1301
+01:03:38.137 --> 01:03:42.277
+First woman ever to join our team and has continued to be there and participate.
+
+1302
+01:03:42.637 --> 01:03:46.800
+Try to help us, and always a very good advocate, to try to improve our diversity.
+
+1303
+01:03:50.809 --> 01:03:51.965
+Now that I've seen the camera,
+
+1304
+01:03:51.965 --> 01:03:52.231
+let's...
+
+1305
+01:03:53.847 --> 01:03:56.550
+My life really changed after that.
+
+1306
+01:03:57.472 --> 01:04:01.534
+A lot of opportunities opened up just because I'm a Python Pro developer.
+
+1307
+01:04:08.275 --> 01:04:12.639
+Marietta went on to give her own set of talks about how important mentorship is.
+
+1308
+01:04:13.438 --> 01:04:17.782
+When you don't have role models who you can relate to,
+
+1309
+01:04:19.744 --> 01:04:23.603
+you start believing that you cannot do it.
+
+1310
+01:04:25.744 --> 01:04:25.978
+Thank you.
+
+1311
+01:04:25.978 --> 01:04:26.510
+Hi everybody,
+
+1312
+01:04:27.275 --> 01:04:28.197
+my name is Marietta.
+
+1313
+01:04:28.713 --> 01:04:29.416
+I'm a PyLady.
+
+1314
+01:04:31.572 --> 01:04:33.306
+I run pyladies Vancouver.
+
+1315
+01:04:34.400 --> 01:04:36.025
+I also help with the PyLadiesCon.
+
+1316
+01:04:36.501 --> 01:04:37.163
+Ten years ago,
+
+1317
+01:04:37.262 --> 01:04:41.246
+I was also in this room in the Pyladies luncheon at Pycon, U.S. 2015.
+
+1318
+01:04:41.945 --> 01:04:44.507
+It was a life-changing event for me.
+
+1319
+01:04:45.672 --> 01:04:50.735
+It was at that event that I felt for the first time in my life as a developer,
+
+1320
+01:04:52.117 --> 01:04:58.327
+I felt like I belong in tech. Because I see 100 women in the room with me.
+
+1321
+01:04:58.985 --> 01:05:03.735
+I just want other women to have role models.
+
+1322
+01:05:04.797 --> 01:05:06.235
+I hope I can help inspire.
+
+1323
+01:05:06.235 --> 01:05:08.601
+Inspire them and help them,
+
+1324
+01:05:09.101 --> 01:05:11.882
+these opportunities belong to you, too.
+
+1325
+01:05:12.565 --> 01:05:20.889
+You're all the reason. I do this because I know there is still a lot to do. And I know together we can help each other and support each other.
+
+1326
+01:05:23.217 --> 01:05:23.873
+Okay,
+
+1327
+01:05:23.875 --> 01:05:24.342
+I think that's it.
+
+1328
+01:05:25.014 --> 01:05:26.170
+Thank you so much everybody.
+
+1329
+01:05:29.264 --> 01:05:34.248
+I have been so consistently impressed by
+
+1330
+01:05:35.210 --> 01:05:50.376
+the Python community's ability to have respectful and real reflection and dialogue about how to steward itself and how to move it forward. In a way that I find so
+
+1331
+01:05:50.492 --> 01:05:54.469
+inspiring and a vision of what is possible in other communities.
+
+1332
+01:05:54.501 --> 01:05:55.860
+And I mean that really sincerely.
+
+1333
+01:06:06.750 --> 01:06:15.621
+There were an ever-growing number of sort of scientific disciplines where all the code was written in Python,
+
+1334
+01:06:15.818 --> 01:06:18.802
+or a lot of it was prototyped in Python. At least.
+
+1335
+01:06:19.320 --> 01:06:22.762
+And then the next step was machine learning packages,
+
+1336
+01:06:23.505 --> 01:06:26.786
+which started with Tensorflow and was later followed by
+
+1337
+01:06:27.228 --> 01:06:29.286
+PyTorch. For a long time,
+
+1338
+01:06:29.309 --> 01:06:39.864
+Python was seen sort of as a scripting language that you would just do small things that you need to automate, and not production-ready code.
+
+1339
+01:06:40.177 --> 01:06:42.114
+And so it wasn't given a ton of attention.
+
+1340
+01:06:42.396 --> 01:06:48.255
+And then now AIML has sort of changed things, where it is now a business driver.
+
+1341
+01:06:48.735 --> 01:06:53.641
+Appeals to people who are not professional programmers,
+
+1342
+01:06:53.820 --> 01:06:57.023
+but need software to do a task.
+
+1343
+01:06:57.523 --> 01:07:01.507
+There are some other languages like R, you can do some interesting stuff in,
+
+1344
+01:07:01.664 --> 01:07:05.492
+but Python is really it for AIML these days.
+
+1345
+01:07:05.929 --> 01:07:13.773
+Python has probably, like centuries of engineering time that has gone into code in the ecosystem, specifically on those topics.
+
+1346
+01:07:13.775 --> 01:07:15.023
+So if you're using Python,
+
+1347
+01:07:15.039 --> 01:07:17.882
+you're able to instantly tap into those libraries.
+
+1348
+01:07:18.179 --> 01:07:19.641
+Meta has PyTorch,
+
+1349
+01:07:19.782 --> 01:07:23.684
+which has an amazing Python API in front-end people can interact with.
+
+1350
+01:07:24.067 --> 01:07:25.286
+There's also SciPy,
+
+1351
+01:07:25.708 --> 01:07:26.226
+NumPy,
+
+1352
+01:07:26.586 --> 01:07:26.907
+Numba,
+
+1353
+01:07:27.164 --> 01:07:27.851
+Pandas.
+
+1354
+01:07:27.969 --> 01:07:31.070
+There's a whole suite of really extensive tools.
+
+1355
+01:07:31.836 --> 01:07:37.523
+Trying to build a language and a language ecosystem that is amenable to all of that is non-trivial.
+
+1356
+01:07:37.836 --> 01:07:39.117
+That actually took real design,
+
+1357
+01:07:39.320 --> 01:07:39.836
+real thought,
+
+1358
+01:07:39.914 --> 01:07:44.398
+and real ecosystem collective innovation over the course of decades.
+
+1359
+01:07:44.648 --> 01:07:46.726
+The back-end of those tools are usually
+
+1360
+01:07:47.211 --> 01:07:47.320
+C.
+
+1361
+01:07:47.903 --> 01:07:52.248
+Or Fortran, or some other native language that's much faster,
+
+1362
+01:07:52.710 --> 01:07:58.378
+but would be difficult for someone with an AI background to program in.
+
+1363
+01:08:00.416 --> 01:08:03.181
+And it continues to be used for all that by all the
+
+1364
+01:08:03.925 --> 01:08:06.378
+AI scientists developing models,
+
+1365
+01:08:06.425 --> 01:08:07.659
+and people training the models,
+
+1366
+01:08:07.721 --> 01:08:08.909
+people using the models.
+
+1367
+01:08:09.081 --> 01:08:13.690
+And that brings yet another increment of growth to the Python community.
+
+1368
+01:08:21.503 --> 01:08:22.824
+Python's a fantastic language,
+
+1369
+01:08:22.885 --> 01:08:24.006
+even if you're not a scientist.
+
+1370
+01:08:24.105 --> 01:08:29.569
+I just don't think it would have risen to the level of dramatic usage without the science. first,
+
+1371
+01:08:29.671 --> 01:08:30.335
+data science,
+
+1372
+01:08:30.373 --> 01:08:31.115
+machine learning story.
+
+1373
+01:08:31.475 --> 01:08:33.052
+We had a massive impact in the world.
+
+1374
+01:08:33.694 --> 01:08:33.935
+You know,
+
+1375
+01:08:33.936 --> 01:08:40.225
+I think one testament to the future of Python is, if you prompt any of the LLMs to do code generation today,
+
+1376
+01:08:40.615 --> 01:08:41.740
+if it's front end,
+
+1377
+01:08:41.787 --> 01:08:42.710
+it's going to be Javascript
+
+1378
+01:08:43.287 --> 01:08:44.694
+If it's back end data analysis,
+
+1379
+01:08:44.694 --> 01:08:45.475
+it's going to be Python.
+
+1380
+01:08:47.475 --> 01:08:48.115
+That's the future.
+
+1381
+01:08:48.725 --> 01:08:49.990
+And Python is a part of that future.
+
+1382
+01:08:50.416 --> 01:08:50.997
+Lucky me that
+
+1383
+01:08:51.457 --> 01:08:53.498
+I chose that language and not a different one.
+
+1384
+01:08:58.720 --> 01:08:58.845
+Hey,
+
+1385
+01:08:58.862 --> 01:08:59.104
+Diego.
+
+1386
+01:08:59.845 --> 01:09:00.002
+Oh,
+
+1387
+01:09:00.025 --> 01:09:00.206
+hello,
+
+1388
+01:09:00.462 --> 01:09:01.385
+Monty.
+
+1389
+01:09:01.386 --> 01:09:02.604
+I hope you don't mind being filmed.
+
+1390
+01:09:03.306 --> 01:09:04.167
+Yeah.
+
+1391
+01:09:04.189 --> 01:09:04.306
+Ah,
+
+1392
+01:09:04.470 --> 01:09:04.893
+okay.
+
+1393
+01:09:04.894 --> 01:09:05.854
+He's not following me.
+
+1394
+01:09:06.212 --> 01:09:06.806
+All right.
+
+1395
+01:09:06.807 --> 01:09:07.087
+Yeah,
+
+1396
+01:09:07.448 --> 01:09:09.931
+she's shooting some b-roll for the documentary,
+
+1397
+01:09:09.948 --> 01:09:10.292
+I think.
+
+1398
+01:09:10.400 --> 01:09:10.542
+Ah,
+
+1399
+01:09:10.650 --> 01:09:10.962
+nice.
+
+1400
+01:09:11.119 --> 01:09:16.323
+I first used Python in 1997, or something like that.
+
+1401
+01:09:17.104 --> 01:09:17.543
+Wow,
+
+1402
+01:09:17.604 --> 01:09:19.783
+that's really early days.
+
+1403
+01:09:21.123 --> 01:09:22.546
+So it's got 30 frames of animation.
+
+1404
+01:09:22.846 --> 01:09:23.585
+Oh,
+
+1405
+01:09:23.586 --> 01:09:23.905
+wow.
+
+1406
+01:09:24.104 --> 01:09:25.867
+I told everyone that he would hate getting the DSA,
+
+1407
+01:09:26.506 --> 01:09:27.467
+but they did it anyway.
+
+1408
+01:09:28.585 --> 01:09:28.748
+Sorry,
+
+1409
+01:09:28.765 --> 01:09:29.287
+the DSA?
+
+1410
+01:09:29.467 --> 01:09:30.569
+Distinguished Service Award.
+
+1411
+01:09:30.804 --> 01:09:34.210
+I labeled him in the annual report as like a leader in the Python community once,
+
+1412
+01:09:34.211 --> 01:09:35.069
+and he made me take it out.
+
+1413
+01:09:35.912 --> 01:09:36.725
+Yeah,
+
+1414
+01:09:36.726 --> 01:09:37.335
+you can see that.
+
+1415
+01:09:37.725 --> 01:09:38.554
+But nevertheless,
+
+1416
+01:09:39.335 --> 01:09:41.444
+he was on the steering council for five years,
+
+1417
+01:09:42.506 --> 01:09:43.367
+and he was a leader.
+
+1418
+01:09:43.617 --> 01:09:46.304
+I got a job from a Python conference back in 2017.
+
+1419
+01:09:46.916 --> 01:09:47.737
+I grew up in India,
+
+1420
+01:09:47.777 --> 01:09:48.457
+I moved to Germany,
+
+1421
+01:09:48.457 --> 01:09:49.158
+it changed my life.
+
+1422
+01:09:49.618 --> 01:09:55.646
+So I think Python changed a lot of things for me and I just wanted to say, thank you for making this language.
+
+1423
+01:09:55.764 --> 01:09:56.568
+It's very sweet.
+
+1424
+01:09:56.646 --> 01:10:00.389
+Do you mind if I take a picture with you?
+
+1425
+01:10:00.390 --> 01:10:01.271
+Or that you don't like it?
+
+1426
+01:10:01.287 --> 01:10:02.068
+I'm so sorry,
+
+1427
+01:10:02.208 --> 01:10:06.208
+I really don't like it, and especially not in busy places.
+
+1428
+01:10:06.381 --> 01:10:06.614
+Okay,
+
+1429
+01:10:06.693 --> 01:10:07.833
+no problem.
+
+1430
+01:10:07.835 --> 01:10:08.225
+I get it.
+
+1431
+01:10:08.256 --> 01:10:08.381
+Okay,
+
+1432
+01:10:08.458 --> 01:10:10.225
+find me in a dark alley and I'll do it.
+
+1433
+01:10:10.333 --> 01:10:14.943
+Okay.
+
+1434
+01:10:16.764 --> 01:10:19.668
+I always kind of looked at myself as the bass player of Python,
+
+1435
+01:10:19.729 --> 01:10:20.470
+which is great.
+
+1436
+01:10:20.550 --> 01:10:20.811
+You know,
+
+1437
+01:10:20.813 --> 01:10:21.690
+you can do a lot,
+
+1438
+01:10:21.713 --> 01:10:22.573
+you can have fun,
+
+1439
+01:10:23.073 --> 01:10:24.519
+and the spotlight's not on you.
+
+1440
+01:10:24.596 --> 01:10:25.957
+And I love that.
+
+1441
+01:10:26.002 --> 01:10:29.127
+I can't imagine having that kind of spotlight on you.
+
+1442
+01:10:30.100 --> 01:10:31.381
+For so many years.
+
+1443
+01:10:31.661 --> 01:10:32.724
+I heard a story from an
+
+1444
+01:10:33.122 --> 01:10:43.012
+Apple VP of engineering that Steve Jobs had turned down their hire of Guido because he said he has his own following. And we don't want to have that kind of distraction.
+
+1445
+01:10:49.099 --> 01:10:51.863
+Python has always been a language that changed.
+
+1446
+01:10:52.283 --> 01:10:54.145
+We've never been one of those languages. That says,
+
+1447
+01:10:54.386 --> 01:10:57.149
+if you write code against this version of Python,
+
+1448
+01:10:57.288 --> 01:11:00.153
+it will run forever with any new version of the language.
+
+1449
+01:11:00.395 --> 01:11:03.636
+We just simply have never been those people.
+
+1450
+01:11:05.457 --> 01:11:09.292
+A PEP is an acronym for Python enhancement Proposal.
+
+1451
+01:11:09.855 --> 01:11:15.824
+That's a document that's written by someone who wants to make a significant change to Python.
+
+1452
+01:11:16.230 --> 01:11:16.605
+Basically,
+
+1453
+01:11:16.667 --> 01:11:19.042
+you're trying to convince people that this is a good idea.
+
+1454
+01:11:19.371 --> 01:11:21.511
+It would be sent for discussion for a mailing list.
+
+1455
+01:11:22.148 --> 01:11:22.889
+And then, eventually,
+
+1456
+01:11:23.229 --> 01:11:23.488
+Guido,
+
+1457
+01:11:23.750 --> 01:11:24.871
+as the BDFL,
+
+1458
+01:11:25.051 --> 01:11:26.511
+the benevolent dictator for life,
+
+1459
+01:11:26.569 --> 01:11:29.215
+would decide whether your change was going in or not.
+
+1460
+01:11:30.155 --> 01:11:41.226
+But people always have worried that the next change is going to be the one that changes the feel of the language.
+
+1461
+01:11:41.726 --> 01:11:43.524
+It won't fit my brain anymore,
+
+1462
+01:11:43.774 --> 01:11:46.132
+or it won't be accessible anymore.
+
+1463
+01:11:46.649 --> 01:11:48.992
+I've actually seen people storm out of rooms saying,
+
+1464
+01:11:49.319 --> 01:11:50.617
+you're ruining this language.
+
+1465
+01:11:50.960 --> 01:11:52.021
+Some people take it very,
+
+1466
+01:11:52.341 --> 01:11:53.524
+very personally and seriously.
+
+1467
+01:11:54.063 --> 01:11:56.625
+And the Walrus operator was no different.
+
+1468
+01:11:57.386 --> 01:11:57.625
+Yeah,
+
+1469
+01:11:57.809 --> 01:11:58.367
+so pep,
+
+1470
+01:11:58.469 --> 01:11:58.628
+pep,
+
+1471
+01:11:58.688 --> 01:11:58.828
+pep,
+
+1472
+01:11:58.828 --> 01:11:59.886
+572.
+
+1473
+01:12:00.426 --> 01:12:02.653
+I don't know who coined the term the walrus operator,
+
+1474
+01:12:02.667 --> 01:12:04.136
+but if you kind of turn your head,
+
+1475
+01:12:04.192 --> 01:12:04.934
+it looks like a little
+
+1476
+01:12:05.636 --> 01:12:06.176
+Walrus.
+
+1477
+01:12:07.371 --> 01:12:10.886
+It was a new feature that was proposed,
+
+1478
+01:12:11.184 --> 01:12:12.809
+but it was also a syntax change.
+
+1479
+01:12:13.448 --> 01:12:15.917
+The Walrus operator lets you do assignments,
+
+1480
+01:12:16.090 --> 01:12:20.605
+meaning put values into variables in places that you previously could not.
+
+1481
+01:12:21.895 --> 01:12:24.096
+That was probably the most contentious language change,
+
+1482
+01:12:24.458 --> 01:12:25.000
+oddly enough,
+
+1483
+01:12:25.859 --> 01:12:27.280
+because it's kind of a minor thing,
+
+1484
+01:12:27.363 --> 01:12:34.604
+but there was so much feeling about whether that should be added or not that it created kind of a bit of a ruckus.
+
+1485
+01:12:35.011 --> 01:12:37.573
+When I first saw the Walrus operator,
+
+1486
+01:12:37.877 --> 01:12:38.690
+I didn't like it.
+
+1487
+01:12:39.065 --> 01:12:41.675
+It kind of felt a little unpythonic to me.
+
+1488
+01:12:42.127 --> 01:12:43.409
+But then I started to play with it.
+
+1489
+01:12:43.832 --> 01:12:47.877
+There was a particular use case that I came up with in my own code that I was like,
+
+1490
+01:12:47.988 --> 01:12:48.096
+oh,
+
+1491
+01:12:48.144 --> 01:12:48.738
+you know what?
+
+1492
+01:12:49.221 --> 01:12:50.550
+This is actually pretty cool.
+
+1493
+01:12:51.231 --> 01:12:52.533
+And so then I was like,
+
+1494
+01:12:52.573 --> 01:12:52.733
+well,
+
+1495
+01:12:53.014 --> 01:12:54.935
+it's something that I won't use very often,
+
+1496
+01:12:54.956 --> 01:12:55.837
+but when I need it,
+
+1497
+01:12:56.015 --> 01:12:57.657
+it's really great to have.
+
+1498
+01:12:57.680 --> 01:12:58.501
+And I turned,
+
+1499
+01:12:58.502 --> 01:12:58.661
+you know,
+
+1500
+01:12:58.662 --> 01:13:00.899
+180 degrees and became a fan of it.
+
+1501
+01:13:01.078 --> 01:13:02.219
+But it was very disruptive.
+
+1502
+01:13:05.789 --> 01:13:09.251
+Language features, and especially syntax, can be a double-edged sword.
+
+1503
+01:13:09.376 --> 01:13:11.438
+So one person's succinct,
+
+1504
+01:13:11.532 --> 01:13:17.001
+elegant code can be another person's unreadable puzzle or a fusticated mess.
+
+1505
+01:13:17.594 --> 01:13:19.563
+They were very strongly voiced.
+
+1506
+01:13:20.243 --> 01:13:23.567
+Predictions about how bad it would be for Python.
+
+1507
+01:13:23.988 --> 01:13:27.472
+And then, just because Python was so much more popular at the time,
+
+1508
+01:13:27.570 --> 01:13:30.434
+there are so many places where people talk about Python.
+
+1509
+01:13:30.472 --> 01:13:30.676
+I mean,
+
+1510
+01:13:30.753 --> 01:13:31.113
+Twitter,
+
+1511
+01:13:31.192 --> 01:13:31.472
+you know,
+
+1512
+01:13:31.511 --> 01:13:32.059
+at the time.
+
+1513
+01:13:33.636 --> 01:13:34.699
+This is all happening in public,
+
+1514
+01:13:34.778 --> 01:13:34.996
+right?
+
+1515
+01:13:35.059 --> 01:13:36.246
+And everyone can kind of,
+
+1516
+01:13:36.528 --> 01:13:37.199
+with low effort,
+
+1517
+01:13:37.261 --> 01:13:38.465
+throw their head into the ring.
+
+1518
+01:13:38.824 --> 01:13:42.590
+And not everyone is going to restrain themselves when they're doing it.
+
+1519
+01:13:45.923 --> 01:13:47.987
+I started being more and more convinced that
+
+1520
+01:13:48.345 --> 01:13:50.869
+PeP 572 was actually the right thing to do.
+
+1521
+01:13:52.268 --> 01:13:53.271
+I was the BDFL,
+
+1522
+01:13:54.792 --> 01:13:56.175
+and I accepted the PEP.
+
+1523
+01:13:58.979 --> 01:13:59.877
+And the next morning,
+
+1524
+01:13:59.979 --> 01:14:00.542
+I woke up,
+
+1525
+01:14:04.237 --> 01:14:04.595
+and
+
+1526
+01:14:05.658 --> 01:14:11.564
+I felt miserable because of all the attacks that had happened before.
+
+1527
+01:14:14.363 --> 01:14:15.684
+I sat down at my computer,
+
+1528
+01:14:17.064 --> 01:14:18.923
+wrote a short email,
+
+1529
+01:14:20.385 --> 01:14:21.564
+and hit send,
+
+1530
+01:14:21.966 --> 01:14:24.608
+wherein I announced that I resigned as BDFL.
+
+1531
+01:14:25.787 --> 01:14:28.725
+And that had an incredible impact.
+
+1532
+01:14:30.247 --> 01:14:32.452
+Nobody had expected I would resign,
+
+1533
+01:14:33.247 --> 01:14:36.389
+and certainly not that I would rage quit over this issue,
+
+1534
+01:14:37.483 --> 01:14:38.935
+which essentially it was.
+
+1535
+01:14:56.795 --> 01:14:57.774
+Transfer of power.
+
+1536
+01:14:58.798 --> 01:15:00.720
+Now that PEP 572 is done,
+
+1537
+01:15:00.818 --> 01:15:06.962
+I don't ever want to have to fight so hard for a PeP. And find that so many people despise my decisions.
+
+1538
+01:15:07.947 --> 01:15:11.485
+I would like to remove myself entirely from the decision process.
+
+1539
+01:15:11.845 --> 01:15:15.752
+I'm basically giving myself a permanent vacation from being BDFL,
+
+1540
+01:15:16.377 --> 01:15:18.173
+and you all will be on your own.
+
+1541
+01:15:18.752 --> 01:15:20.954
+I am not going to appoint a successor.
+
+1542
+01:15:21.798 --> 01:15:23.095
+So what are you all going to do?
+
+1543
+01:15:23.336 --> 01:15:29.802
+Create a democracy, anarchy, a dictatorship federation. I'll still be here, but I'm
+
+1544
+01:15:29.859 --> 01:15:32.943
+trying to let you all figure something out for yourselves.
+
+1545
+01:15:33.003 --> 01:15:35.465
+I'm tired and I need a very long break.
+
+1546
+01:15:36.988 --> 01:15:37.367
+That was it.
+
+1547
+01:15:40.211 --> 01:15:41.328
+I haven't read that.
+
+1548
+01:15:41.375 --> 01:15:41.890
+That was,
+
+1549
+01:15:42.492 --> 01:15:43.875
+I thought, that was pretty well written.
+
+1550
+01:15:46.600 --> 01:15:48.538
+I like to say he mic dropped his way out.
+
+1551
+01:15:48.539 --> 01:15:48.725
+You know,
+
+1552
+01:15:48.726 --> 01:15:49.350
+he just was like,
+
+1553
+01:15:49.351 --> 01:15:49.742
+I'm out.
+
+1554
+01:15:49.867 --> 01:15:50.304
+I'm done.
+
+1555
+01:15:50.319 --> 01:15:51.319
+You guys figure it out.
+
+1556
+01:15:51.788 --> 01:15:54.898
+So it was a complete and total shock to me.
+
+1557
+01:15:55.429 --> 01:15:56.225
+Yeah.
+
+1558
+01:15:56.226 --> 01:15:58.319
+I just felt really sad about it.
+
+1559
+01:15:58.684 --> 01:16:03.844
+I wish he would have retired under better circumstances.
+
+1560
+01:16:04.945 --> 01:16:10.007
+I felt I needed to take a step back to sort of recover myself.
+
+1561
+01:16:10.649 --> 01:16:12.844
+I think a lot of people really felt for Guido,
+
+1562
+01:16:13.265 --> 01:16:13.664
+you know,
+
+1563
+01:16:14.086 --> 01:16:15.726
+that he could be pushed to that point.
+
+1564
+01:16:16.430 --> 01:16:16.711
+Like,
+
+1565
+01:16:19.164 --> 01:16:27.149
+maybe we let him down to allow the vitriol over this.
+
+1566
+01:16:28.688 --> 01:16:32.887
+Change to Python to push somebody that we cared about to that point?
+
+1567
+01:16:35.708 --> 01:16:46.114
+We all perceived that it was like a momentous occasion, or like a significant change. That you would put a mark in your timeline, in the history book, in the history of Python,
+
+1568
+01:16:46.208 --> 01:16:46.412
+right?
+
+1569
+01:16:46.458 --> 01:16:51.693
+Because it had been run on the ADFL model for its entire existence.
+
+1570
+01:16:51.694 --> 01:16:53.270
+So there was a little bit of uncertainty,
+
+1571
+01:16:53.520 --> 01:16:53.708
+like,
+
+1572
+01:16:53.989 --> 01:16:56.020
+can this work at all without guidance of Guido?
+
+1573
+01:16:56.671 --> 01:16:57.613
+Kind of a parent saying,
+
+1574
+01:16:57.632 --> 01:17:00.033
+it's time for you to grow up and figure it out on your own.
+
+1575
+01:17:00.335 --> 01:17:02.096
+I'm not going to solve this problem for you.
+
+1576
+01:17:05.502 --> 01:17:09.386
+First order of business was deciding on how to decide.
+
+1577
+01:17:09.963 --> 01:17:12.831
+And it turns out some people have very strong opinions on voting systems.
+
+1578
+01:17:13.252 --> 01:17:15.144
+Programmers love arguing about voting methods.
+
+1579
+01:17:15.738 --> 01:17:16.752
+I remember thinking,
+
+1580
+01:17:17.456 --> 01:17:18.846
+this isn't going to work.
+
+1581
+01:17:19.033 --> 01:17:20.769
+A lot of strong voices.
+
+1582
+01:17:21.127 --> 01:17:22.690
+It's really difficult when you have...
+
+1583
+01:17:22.935 --> 01:17:34.024
+Hundreds of core developers and thousands of people online, and millions of people in the community, and probably billions of dollars of software that run on Python.
+
+1584
+01:17:34.984 --> 01:17:38.430
+You can't think about that because it definitely gets overwhelming.
+
+1585
+01:17:38.938 --> 01:17:40.516
+I will fully admit it was stressful.
+
+1586
+01:17:41.078 --> 01:17:42.828
+I had to go to an ear,
+
+1587
+01:17:42.876 --> 01:17:47.407
+nose and throat specialist because I actually was starting to choke on my own throat from the stress.
+
+1588
+01:17:47.657 --> 01:17:52.359
+It was not fun because if we couldn't decide on how we were going to decide...
+
+1589
+01:17:52.807 --> 01:17:53.448
+Project was done.
+
+1590
+01:17:53.769 --> 01:17:57.891
+We really approached it like the nerdy engineers we are.
+
+1591
+01:17:58.193 --> 01:17:59.454
+In Python classic fashion,
+
+1592
+01:17:59.456 --> 01:18:00.474
+we wrote a bunch of PAPs.
+
+1593
+01:18:00.978 --> 01:18:05.103
+We didn't want to rush it because we knew we were going to have to live with this, potentially forever.
+
+1594
+01:18:05.743 --> 01:18:18.618
+But we also realized the world was watching and did not like the idea of not knowing whether the thing was going to be around in a year or not. Because we couldn't stop bickering among ourselves about how to run ourselves.
+
+1595
+01:18:18.908 --> 01:18:20.449
+People sponsored different kinds of models.
+
+1596
+01:18:20.470 --> 01:18:21.350
+I think there was one which was like,
+
+1597
+01:18:21.451 --> 01:18:24.292
+let's pick another BDFL, because that's what we feel comfortable with.
+
+1598
+01:18:24.515 --> 01:18:27.713
+And then there was various kinds of committees and councils,
+
+1599
+01:18:28.238 --> 01:18:31.119
+and we ended up settling on the five-person steering committee.
+
+1600
+01:18:31.402 --> 01:18:31.979
+Good morning,
+
+1601
+01:18:32.019 --> 01:18:32.261
+PyCon.
+
+1602
+01:18:32.261 --> 01:18:32.823
+Cheers.
+
+1603
+01:18:33.519 --> 01:18:34.667
+Thanks so much for joining us.
+
+1604
+01:18:36.182 --> 01:18:38.994
+So, welcome to our panel with Python Steering Council.
+
+1605
+01:18:39.573 --> 01:18:40.604
+Because there's five people,
+
+1606
+01:18:40.636 --> 01:18:41.823
+you don't have the same problem,
+
+1607
+01:18:41.948 --> 01:18:47.369
+like all the stress and responsibility of making these decisions falling on one person.
+
+1608
+01:18:47.823 --> 01:18:52.809
+I actually felt that it made sense for me to be on that first steering council,
+
+1609
+01:18:53.070 --> 01:18:56.430
+given that there was no longer feeling so burned out or attacked,
+
+1610
+01:18:56.890 --> 01:18:59.134
+to provide some amount of continuity.
+
+1611
+01:18:59.578 --> 01:19:00.539
+You know how this goes.
+
+1612
+01:19:00.578 --> 01:19:02.078
+When your kid goes off to college,
+
+1613
+01:19:02.140 --> 01:19:03.907
+some of you may have experience with that,
+
+1614
+01:19:04.282 --> 01:19:07.234
+you're no longer directly involved in their lives,
+
+1615
+01:19:07.422 --> 01:19:07.720
+maybe,
+
+1616
+01:19:07.938 --> 01:19:10.390
+but you never stop worrying.
+
+1617
+01:19:11.188 --> 01:19:14.547
+And that's how I feel about Python at the moment.
+
+1618
+01:19:14.595 --> 01:19:15.484
+And that's why I...
+
+1619
+01:19:20.810 --> 01:19:23.993
+Why I nominated myself for the steering committee and here I am.
+
+1620
+01:19:25.993 --> 01:19:34.328
+There were elections for the second year steering council, and first I nominated myself and then withdrew because there were enough other strong candidates.
+
+1621
+01:19:34.969 --> 01:19:40.828
+They didn't need me and I was happy to sort of let go of it.
+
+1622
+01:19:50.971 --> 01:20:00.278
+The legitimacy that came from the replacement springing up from the community is essential to it being accepted.
+
+1623
+01:20:00.684 --> 01:20:02.105
+It came from us,
+
+1624
+01:20:02.582 --> 01:20:04.622
+so it's accepted by us.
+
+1625
+01:20:05.349 --> 01:20:06.067
+It works.
+
+1626
+01:20:06.224 --> 01:20:07.716
+I think it works for us now.
+
+1627
+01:20:08.434 --> 01:20:12.309
+There may be a time in the future where it doesn't work, or pieces of it don't work.
+
+1628
+01:20:13.012 --> 01:20:14.809
+You have to be willing to evolve.
+
+1629
+01:20:15.155 --> 01:20:18.282
+Change is the one universal constant of the universe.
+
+1630
+01:20:18.283 --> 01:20:24.809
+And so things always change and you have to be ready and willing to adapt to change.
+
+1631
+01:20:38.640 --> 01:20:40.721
+It started out as a hobby project,
+
+1632
+01:20:40.784 --> 01:20:41.363
+definitely.
+
+1633
+01:20:41.604 --> 01:20:45.582
+I think I probably wanted to prove something to myself more than anything.
+
+1634
+01:20:46.104 --> 01:20:49.519
+It exceeded my wildest expectations,
+
+1635
+01:20:49.565 --> 01:20:51.565
+and it actually continues to do so.
+
+1636
+01:20:53.721 --> 01:20:59.019
+I constantly hear from people whose lives were completely changed by Python.
+
+1637
+01:20:59.895 --> 01:21:03.118
+And it has created this incredible community,
+
+1638
+01:21:03.458 --> 01:21:09.305
+which was also a complete sort of bonus over everything else
+
+1639
+01:21:09.884 --> 01:21:11.047
+I had anticipated.
+
+1640
+01:21:11.305 --> 01:21:21.377
+This community that has like a massive conference every year and smaller conferences in every continent,
+
+1641
+01:21:21.658 --> 01:21:22.064
+I think,
+
+1642
+01:21:22.095 --> 01:21:23.220
+except Antarctica.
+
+1643
+01:21:24.814 --> 01:21:27.845
+There was one of the Python conferences where there was...
+
+1644
+01:21:28.028 --> 01:21:30.751
+A few thousand people in the audience.
+
+1645
+01:21:31.270 --> 01:21:33.032
+I remember just looking around and going,
+
+1646
+01:21:33.813 --> 01:21:35.574
+this is mind-blowing.
+
+1647
+01:21:36.355 --> 01:21:37.676
+That's the point at which
+
+1648
+01:21:38.536 --> 01:21:41.582
+I knew we had achieved something important,
+
+1649
+01:21:42.520 --> 01:21:47.465
+something that made a difference in people's lives and in the world.
+
+1650
+01:21:49.434 --> 01:21:54.653
+Python turned out to be much more successful than perhaps any of us thought,
+
+1651
+01:21:54.715 --> 01:21:55.028
+except...
+
+1652
+01:21:55.783 --> 01:21:57.005
+Maybe Guido and his team,
+
+1653
+01:21:57.126 --> 01:21:59.688
+I think they always believed that this was the future.
+
+1654
+01:21:59.726 --> 01:22:00.207
+And, of course,
+
+1655
+01:22:00.247 --> 01:22:02.109
+it's now one of the most popular,
+
+1656
+01:22:02.328 --> 01:22:05.212
+if not the most popular programming language in the world.
+
+1657
+01:22:05.453 --> 01:22:10.320
+He spent two weeks in Christmas in Like 1989, writing a programming language because he thought it would be fun.
+
+1658
+01:22:10.399 --> 01:22:16.890
+Like, who would have imagined that that would be such a life-altering and also world-altering thing to have done?
+
+1659
+01:22:17.345 --> 01:22:19.984
+I think it's been great for the world.
+
+1660
+01:22:20.109 --> 01:22:24.188
+I think it's made people feel like they can get into programming.
+
+1661
+01:22:24.435 --> 01:22:25.655
+When they never thought they could.
+
+1662
+01:22:25.837 --> 01:22:28.078
+I think it made programming accessible to people.
+
+1663
+01:22:28.354 --> 01:22:42.284
+It's literally part of kindergarten through grade 12 education around the world. And is on Mars. Thanks to being used as a scripting language to process the parachute at the Perseverance Rover landing.
+
+1664
+01:22:42.471 --> 01:22:45.738
+Like, it's hard to think of anything that hasn't been touched by some Python code somewhere.
+
+1665
+01:22:45.988 --> 01:22:47.082
+It's mind-boggling.
+
+1666
+01:22:47.738 --> 01:22:48.925
+It's an important language.
+
+1667
+01:22:49.488 --> 01:22:52.409
+It's a popular language, that's a vibrant and
+
+1668
+01:22:52.804 --> 01:23:07.775
+relevant language today, as much as it was in the past, and I believe as much as it will be in the future. Programmers 30 years from now will be like, Oh yeah, you know, I'm still using Python. Just like today, people are still using Fortran and C and
+
+1669
+01:23:07.777 --> 01:23:16.306
+C plus plus. And those are old languages, you know, too, in the scheme of thing scheme list, another old language. So, yeah,
+
+1670
+01:23:40.560 --> 01:23:40.670
+now
+
+1671
+01:23:40.685 --> 01:23:42.295
+I keep thinking of, like, weird jokes.
+
+1672
+01:23:42.608 --> 01:23:44.795
+There's this library in Python called pickles,
+
+1673
+01:23:45.764 --> 01:23:48.014
+because pickle is a funny word,
+
+1674
+01:23:48.060 --> 01:23:48.372
+I guess.
+
+1675
+01:23:48.983 --> 01:23:51.435
+The documentation used to have a footnote about
+
+1676
+01:23:51.652 --> 01:23:53.359
+how you should imagine Guido and
+
+1677
+01:23:53.801 --> 01:23:55.609
+Jim sniffing pickles.
