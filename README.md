@@ -1,2 +1,2 @@
-# Python-The-Documentary
-Python  The Documentary subtitle 
+# Python-The-Documentary | مستند پایتون دانلود زیرنویس فارسی 
+فایل دانلود زیرنویس فارسی و انگلیسی تولید و ترجمه شده با AI
